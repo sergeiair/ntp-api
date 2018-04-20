@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NtpApi", "NtpApi\NtpApi.csproj", "{12236B1D-12E5-483F-A683-2E3BE3CEE596}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{002901BA-8BCE-46B4-8AE3-F2F9EC98505D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12236B1D-12E5-483F-A683-2E3BE3CEE596}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12236B1D-12E5-483F-A683-2E3BE3CEE596}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12236B1D-12E5-483F-A683-2E3BE3CEE596}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12236B1D-12E5-483F-A683-2E3BE3CEE596}.Release|Any CPU.Build.0 = Release|Any CPU
+		{002901BA-8BCE-46B4-8AE3-F2F9EC98505D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{002901BA-8BCE-46B4-8AE3-F2F9EC98505D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{002901BA-8BCE-46B4-8AE3-F2F9EC98505D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{002901BA-8BCE-46B4-8AE3-F2F9EC98505D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F9FFA1A1-9798-49A6-8F81-B1F8F5894B7B}
+	EndGlobalSection
+EndGlobal

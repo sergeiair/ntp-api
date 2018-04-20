@@ -1,0 +1,1 @@
+D:\OWN_PROJECTS\NTP_API\NtpApi\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
