@@ -1,13 +1,9 @@
 services:
-  mongodb:
-    container_name: mongo
-    image: mongo:latest
-    ports:
-    - 27017:27017/tcp
   ntpapi:
     build:
       context: D:\OWN_PROJECTS\NTP_API\NtpApi
       dockerfile: NtpApi/Dockerfile
+    container_name: ntp
     environment:
       ASPNETCORE_ENVIRONMENT: Development
     image: ntpapi

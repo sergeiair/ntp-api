@@ -8,13 +8,13 @@ using System.Threading.Tasks;
 namespace NtpApi.Controllers
 {
     [Produces("application/json")]
-    [Route("api/fixtures")]
-    public class FixturesController : Controller
+    [Route("graphql")]
+    public class GraphQLController : Controller
     {
         private readonly IDocumentExecuter _documentExecuter;
         private readonly ISchema _schema;
 
-        public FixturesController(IDocumentExecuter documentExecuter, ISchema schema)
+        public GraphQLController(IDocumentExecuter documentExecuter, ISchema schema)
         {
             _documentExecuter = documentExecuter;
             _schema = schema;
@@ -32,7 +32,10 @@ namespace NtpApi.Controllers
 
             if (query == null) { throw new ArgumentNullException(nameof(query)); }
 
-            var executionOptions = new ExecutionOptions { Schema = _schema, Query = query.Query };
+            var executionOptions = new ExecutionOptions {
+                Schema = _schema,
+                Query = query.Query
+            };
 
             try
             {

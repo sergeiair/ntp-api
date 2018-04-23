@@ -22,11 +22,9 @@ namespace NtpApi.Repositories
         {
             try
             {
-                IEnumerable<Fixture> f = await _context.Fixtures
-                        .Find(_ => true)
-                        .ToListAsync();
-
-                return f;
+                return await _context.Fixtures
+                    .Find(_ => true)
+                    .ToListAsync();
             }
             catch (Exception ex)
             {
@@ -39,8 +37,8 @@ namespace NtpApi.Repositories
             try
             {
                 return await _context.Fixtures
-                        .Find(Builders<Fixture>.Filter.Eq("id", id))
-                        .FirstOrDefaultAsync();
+                    .Find(Builders<Fixture>.Filter.Eq("id", id))
+                    .FirstOrDefaultAsync();
             }
             catch (Exception ex)
             {

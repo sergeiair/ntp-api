@@ -40,7 +40,8 @@ namespace NtpApi
             services.AddTransient<FixtureType>();
 
             var sp = services.BuildServiceProvider();
-            services.AddScoped<ISchema>(_ => new FixturesSchema(type => (GraphType)sp.GetService(type)) { Query = sp.GetService<FixturesQuery>() });
+            services.AddScoped<ISchema>(_ => new FixturesSchema(type => (GraphType)sp.GetService(type))
+                { Query = sp.GetService<FixturesQuery>() });
 
         }
 
@@ -52,6 +53,7 @@ namespace NtpApi
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseGraphiQl();
             app.UseMvc();
         }
     }
