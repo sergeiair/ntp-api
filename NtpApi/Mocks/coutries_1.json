@@ -1,56 +1,42 @@
-{
-  "docs": [
+[
     {
-      "_id": 25,
+      "id_country": 25,
       "name": "Belgium",
-      "rectangle_flag": "http://assets.sportdeer.com/flags/svg/4x3/be.svg",
-      "square_flag": "http://assets.sportdeer.com/flags/svg/1x1/be.svg"
+      "code": "be"
     },
     {
-      "_id": 46,
+      "id_country": 46,
       "name": "England",
-      "square_flag": "http://assets.sportdeer.com/flags/svg/1x1/gb-eng.svg",
-      "rectangle_flag": "http://assets.sportdeer.com/flags/svg/4x3/gb-eng.svg"
+      "code": "gb"
     },
     {
-      "_id": 54,
+      "id_country": 54,
       "name": "France",
-      "rectangle_flag": "http://assets.sportdeer.com/flags/svg/4x3/fr.svg",
-      "square_flag": "http://assets.sportdeer.com/flags/svg/1x1/fr.svg"
+      "code": "fr"
     },
     {
-      "_id": 59,
+      "id_country": 59,
       "name": "Germany",
-      "square_flag": "http://assets.sportdeer.com/flags/svg/1x1/de.svg",
-      "rectangle_flag": "http://assets.sportdeer.com/flags/svg/4x3/de.svg"
+      "code": "de"
     },
     {
-      "_id": 82,
-      "name": "International"
+      "id_country": 82,
+      "name": "International",
+      "code": "int"
     },
     {
-      "_id": 86,
+      "id_country": 86,
       "name": "Italy",
-      "square_flag": "http://assets.sportdeer.com/flags/svg/1x1/it.svg",
-      "rectangle_flag": "http://assets.sportdeer.com/flags/svg/4x3/it.svg"
+      "code": "it"
     },
     {
-      "_id": 101,
+      "id_country": 101,
       "name": "Netherlands",
-      "square_flag": "http://assets.sportdeer.com/flags/svg/1x1/nl.svg",
-      "rectangle_flag": "http://assets.sportdeer.com/flags/svg/4x3/nl.svg"
+      "code": "nl"
     },
     {
-      "_id": 122,
+      "id_country": 122,
       "name": "Spain",
-      "square_flag": "http://assets.sportdeer.com/flags/svg/1x1/es.svg",
-      "rectangle_flag": "http://assets.sportdeer.com/flags/svg/4x3/es.svg"
+      "code": "es"
     }
-  ],
-  "pagination": {
-    "total": 8,
-    "limit": 30,
-    "page": 1,
-    "pages": 1
-  }
-}
+  ]

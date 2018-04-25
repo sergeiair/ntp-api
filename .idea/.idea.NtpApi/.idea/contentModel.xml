@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\siarhei.zhardzetski\.Rider2018.1\system\resharper-host\local\Transient\ReSharperHost\v12\SolutionCaches\_NtpApi.-1688564862.00" t="ExcludeRecursive" />
+    <e p="C:\Users\siarhei.zhardzetski\RiderProjects\ntp-api" t="IncludeFlat">
+      <e p="docker-compose.dcproj" t="IncludeRecursive" />
+      <e p="NtpApi" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Context" t="Include">
+          <e p="Mongo" t="Include">
+            <e p="Context.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Controllers" t="Include">
+          <e p="GraphQLController.cs" t="Include" />
+        </e>
+        <e p="Dockerfile" t="Include" />
+        <e p="Mocks" t="Include">
+          <e p="coutries_1.json" t="Include" />
+          <e p="fcb_rma_all.json" t="Include" />
+          <e p="primera_2003.json" t="Include" />
+          <e p="primera_seasons" t="Include" />
+          <e p="refresh.txt" t="Include" />
+          <e p="spain_leagues.json" t="Include" />
+          <e p="teamSeasons_fcb.json" t="Include" />
+          <e p="teamSeasons_rma.json" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="Country.cs" t="Include" />
+          <e p="Fixture.cs" t="Include" />
+          <e p="GraphQLQuery.cs" t="Include" />
+        </e>
+        <e p="NtpApi.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.0" t="Include">
+              <e p="NtpApi.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Queries" t="Include">
+          <e p="FixturesQuery.cs" t="Include" />
+        </e>
+        <e p="Repositories" t="Include">
+          <e p="FixturesRepository.cs" t="Include" />
+          <e p="IFixturesRepository.cs" t="Include" />
+        </e>
+        <e p="Schemes" t="Include">
+          <e p="FixturesSchema.cs" t="Include" />
+        </e>
+        <e p="Settings" t="Include">
+          <e p="MongoSettings.cs" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="Types" t="Include">
+          <e p="FixtureType.cs" t="Include" />
+        </e>
+        <e p="wwwroot" t="Include" />
+      </e>
+      <e p="NtpApi.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

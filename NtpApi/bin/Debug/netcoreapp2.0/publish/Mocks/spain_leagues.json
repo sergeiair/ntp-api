@@ -1,0 +1,34 @@
+{
+  "docs": [
+    {
+      "_id": 129,
+      "name": "Primera Division",
+      "id_country": 122,
+      "logo_svg": "http://assets.sportdeer.com/logos/football_leagues/Liga_BBVA.svg",
+      "countries": {
+        "_id": 122,
+        "name": "Spain",
+        "square_flag": "http://assets.sportdeer.com/flags/svg/1x1/es.svg",
+        "rectangle_flag": "http://assets.sportdeer.com/flags/svg/4x3/es.svg"
+      }
+    },
+    {
+      "_id": 130,
+      "name": "Segunda B",
+      "id_country": 122,
+      "logo_svg": "http://assets.sportdeer.com/logos/football_leagues/LaLiga2.svg",
+      "countries": {
+        "_id": 122,
+        "name": "Spain",
+        "square_flag": "http://assets.sportdeer.com/flags/svg/1x1/es.svg",
+        "rectangle_flag": "http://assets.sportdeer.com/flags/svg/4x3/es.svg"
+      }
+    }
+  ],
+  "pagination": {
+    "total": 2,
+    "limit": 30,
+    "page": 1,
+    "pages": 1
+  }
+}

@@ -20,12 +20,6 @@ namespace NtpApi.Controllers
             _schema = schema;
         }
 
-        [HttpGet]
-        public string Get()
-        {
-            return "Hi from fixtures";
-        }
-
         [HttpPost]
         public async Task<IActionResult> Post([FromBody]GraphQLQuery query)
         {

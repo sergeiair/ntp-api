@@ -11,13 +11,10 @@ public class Context
     {
         try
         {
-            var client = new MongoClient(settings.Value.ConnectionString);
-
-            if (client != null)
-            {
-                _database = client.GetDatabase(settings.Value.Database);
-            }
-               
+            MongoClient client = new MongoClient(settings.Value.ConnectionString);
+            
+            _database = client.GetDatabase(settings.Value.Database);
+            
         } catch (System.Exception ex)
         {
             throw ex;
@@ -29,7 +26,7 @@ public class Context
     {
         get
         {
-            return _database.GetCollection<Fixture>("collection");
+            return _database.GetCollection<Fixture>("fixtures");
         }
     }
 }
