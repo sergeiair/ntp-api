@@ -2,33 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26565f96-4290-454a-959e-38fc5952984d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/NtpApi/Models/Country.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NtpApi/Repositories/CountriesRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NtpApi/Types/CountryType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.NtpApi/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NtpApi/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.NtpApi/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NtpApi/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NtpApi.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/NtpApi.sln.DotSettings.user" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NtpApi/Context/Mongo/Context.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NtpApi/Context/Mongo/Context.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NtpApi/Controllers/GraphQLController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NtpApi/Controllers/GraphQLController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NtpApi/Mocks/coutries_1.json" beforeDir="false" afterPath="$PROJECT_DIR$/NtpApi/Mocks/coutries_1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NtpApi/Mocks/fcb_rma_all.json" beforeDir="false" afterPath="$PROJECT_DIR$/NtpApi/Mocks/fcb_rma_all.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NtpApi/Models/Fixture.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NtpApi/Models/Fixture.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NtpApi/NtpApi.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/NtpApi/NtpApi.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NtpApi/Types/FixtureType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NtpApi/Types/FixtureType.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NtpApi/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/NtpApi/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NtpApi/bin/Debug/netcoreapp2.0/NtpApi.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/NtpApi/bin/Debug/netcoreapp2.0/NtpApi.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NtpApi/Models/Country.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NtpApi/Models/Country.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NtpApi/Queries/FixturesQuery.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NtpApi/Queries/NTPQuery.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NtpApi/Repositories/FixturesRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NtpApi/Repositories/FixturesRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NtpApi/Repositories/IFixturesRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NtpApi/Repositories/ICollectionRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NtpApi/Schemes/FixturesSchema.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NtpApi/Schemes/NTPSchema.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NtpApi/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NtpApi/Startup.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NtpApi/bin/Debug/netcoreapp2.0/NtpApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/NtpApi/bin/Debug/netcoreapp2.0/NtpApi.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NtpApi/bin/Debug/netcoreapp2.0/NtpApi.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/NtpApi/bin/Debug/netcoreapp2.0/NtpApi.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NtpApi/bin/Debug/netcoreapp2.0/NtpApi.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/NtpApi/bin/Debug/netcoreapp2.0/NtpApi.runtimeconfig.dev.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NtpApi/bin/Debug/netcoreapp2.0/NtpApi.runtimeconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/NtpApi/bin/Debug/netcoreapp2.0/NtpApi.runtimeconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NtpApi/obj/Debug/netcoreapp2.0/NtpApi.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NtpApi/obj/Debug/netcoreapp2.0/NtpApi.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NtpApi/obj/Debug/netcoreapp2.0/NtpApi.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/NtpApi/obj/Debug/netcoreapp2.0/NtpApi.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NtpApi/obj/Debug/netcoreapp2.0/NtpApi.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/NtpApi/obj/Debug/netcoreapp2.0/NtpApi.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NtpApi/obj/Debug/netcoreapp2.0/NtpApi.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NtpApi/obj/Debug/netcoreapp2.0/NtpApi.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NtpApi/obj/Debug/netcoreapp2.0/NtpApi.csprojResolveAssemblyReference.cache" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/NtpApi/obj/Debug/netcoreapp2.0/NtpApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/NtpApi/obj/Debug/netcoreapp2.0/NtpApi.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NtpApi/obj/Debug/netcoreapp2.0/NtpApi.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/NtpApi/obj/Debug/netcoreapp2.0/NtpApi.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NtpApi/obj/NtpApi.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/NtpApi/obj/NtpApi.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NtpApi/obj/NtpApi.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/NtpApi/obj/NtpApi.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NtpApi/obj/NtpApi.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/NtpApi/obj/NtpApi.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NtpApi/obj/Release/netcoreapp2.0/NtpApi.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NtpApi/obj/Release/netcoreapp2.0/NtpApi.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NtpApi/obj/Release/netcoreapp2.0/NtpApi.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/NtpApi/obj/Release/netcoreapp2.0/NtpApi.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NtpApi/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/NtpApi/obj/project.assets.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -53,125 +45,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GraphQLController.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NtpApi/Controllers/GraphQLController.cs">
+      <file leaf-file-name="CountryType.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/NtpApi/Types/CountryType.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="391">
+              <caret line="23" column="62" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
               <folding>
-                <marker date="1524661084636" expanded="true" signature="6:132" ph="..." />
-                <marker date="1524661084636" expanded="true" signature="162:1378" ph="{...}" />
-                <marker date="1524661084636" expanded="true" signature="270:1376" ph="{...}" />
-                <marker date="1524661084636" expanded="true" signature="466:566" ph="{...}" />
-                <marker date="1524661084636" expanded="true" signature="662:1370" ph="{...}" />
-                <marker date="1524661084636" expanded="true" signature="814:899" ph="{...}" />
-                <marker date="1524661084636" expanded="true" signature="917:1260" ph="{...}" />
-                <marker date="1524661084636" expanded="true" signature="1127:1210" ph="{...}" />
-                <marker date="1524661084636" expanded="true" signature="1293:1360" ph="{...}" />
+                <marker date="1524757979789" expanded="true" signature="6:117" ph="..." />
+                <marker date="1524757979789" expanded="true" signature="141:1013" ph="{...}" />
+                <marker date="1524757979789" expanded="true" signature="199:1011" ph="{...}" />
+                <marker date="1524757979789" expanded="true" signature="283:1005" ph="{...}" />
+                <marker date="1524757979789" expanded="true" signature="716:980" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FixtureType.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NtpApi/Types/FixtureType.cs">
+      <file leaf-file-name="FixturesRepository.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NtpApi/Repositories/FixturesRepository.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+            <state relative-caret-position="476">
+              <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
               <folding>
-                <marker date="1524664914737" expanded="true" signature="6:41" ph="..." />
-                <marker date="1524664914737" expanded="true" signature="65:2288" ph="{...}" />
-                <marker date="1524664914737" expanded="true" signature="123:2286" ph="{...}" />
-                <marker date="1524664914737" expanded="true" signature="158:2280" ph="{...}" />
+                <marker date="1524757764780" expanded="false" signature="6:199" ph="..." />
+                <marker date="1524757764780" expanded="true" signature="230:2044" ph="{...}" />
+                <marker date="1524757764780" expanded="true" signature="301:2042" ph="{...}" />
+                <marker date="1524757764780" expanded="true" signature="419:485" ph="{...}" />
+                <marker date="1524757764780" expanded="true" signature="550:821" ph="{...}" />
+                <marker date="1524757764780" expanded="true" signature="576:724" ph="{...}" />
+                <marker date="1524757764780" expanded="true" signature="757:811" ph="{...}" />
+                <marker date="1524757764780" expanded="true" signature="929:1241" ph="{...}" />
+                <marker date="1524757764780" expanded="true" signature="955:1144" ph="{...}" />
+                <marker date="1524757764780" expanded="true" signature="1177:1231" ph="{...}" />
+                <marker date="1524757764780" expanded="true" signature="1335:1655" ph="{...}" />
+                <marker date="1524757764780" expanded="true" signature="1361:1558" ph="{...}" />
+                <marker date="1524757764780" expanded="true" signature="1591:1645" ph="{...}" />
+                <marker date="1524757764780" expanded="true" signature="1729:2036" ph="{...}" />
+                <marker date="1524757764780" expanded="true" signature="1755:1939" ph="{...}" />
+                <marker date="1524757764780" expanded="true" signature="1972:2026" ph="{...}" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FixturesQuery.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NtpApi/Queries/FixturesQuery.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="70" selection-start-line="16" selection-start-column="70" selection-end-line="16" selection-end-column="70" />
-              <folding>
-                <marker date="1524660902396" expanded="true" signature="6:87" ph="..." />
-                <marker date="1524660902396" expanded="true" signature="113:851" ph="{...}" />
-                <marker date="1524660902396" expanded="true" signature="164:849" ph="{...}" />
-                <marker date="1524660902396" expanded="true" signature="239:843" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Context.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NtpApi/Context/Mongo/Context.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-              <folding>
-                <marker date="1524665429008" expanded="true" signature="6:101" ph="..." />
-                <marker date="1524665429008" expanded="true" signature="123:692" ph="{...}" />
-                <marker date="1524665429008" expanded="true" signature="233:534" ph="{...}" />
-                <marker date="1524665429008" expanded="true" signature="251:449" ph="{...}" />
-                <marker date="1524665429008" expanded="true" signature="477:519" ph="{...}" />
-                <marker date="1524665429008" expanded="true" signature="581:690" ph="{...}" />
-                <marker date="1524665429008" expanded="true" signature="599:684" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="coutries_1.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NtpApi/Mocks/coutries_1.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="41" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MongoClient.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/46A87A6D-D523-403B-B9F0-772D081CE278/3e/7599bc66/MongoClient.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="64" column="22" selection-start-line="64" selection-start-column="11" selection-end-line="64" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Fixture.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NtpApi/Models/Fixture.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="36" />
-              <folding>
-                <marker date="1524664693446" expanded="true" signature="6:64" ph="..." />
-                <marker date="1524664693446" expanded="true" signature="89:1406" ph="{...}" />
-                <marker date="1524664693446" expanded="true" signature="117:1404" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Country.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/NtpApi/Models/Country.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-              <folding>
-                <marker date="1524666577869" expanded="true" signature="6:64" ph="..." />
-                <marker date="1524666577869" expanded="true" signature="89:1406" ph="{...}" />
-                <marker date="1524666577869" expanded="true" signature="117:1404" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fcb_rma_all.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NtpApi/Mocks/fcb_rma_all.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1233">
-              <caret line="555" column="23" lean-forward="true" selection-end-line="1012" />
             </state>
           </provider>
         </entry>
@@ -185,49 +97,76 @@
       <find>32768</find>
       <find>.id</find>
       <find>&quot;_id&quot;</find>
+      <find>CountryType</find>
+      <find>countr</find>
+      <find>count</find>
+      <find>coun</find>
+      <find>fix</find>
+      <find>fixtures</find>
+      <find>id_country</find>
+      <find>CountriesQuery</find>
+      <find>code</find>
+      <find>fixturesRepository</find>
+      <find>GetItemAsync</find>
+      <find>122</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;Lineup_</replace>
       <replace>&quot;id_country&quot;</replace>
+      <replace>Id_country</replace>
+      <replace>Code</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/NtpApi/Models/Fixture.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/NtpApi/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/NtpApi/Models/GraphQLQuery.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/NtpApi/Context/Mongo/Context.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NtpApi/Repositories/ICollectionRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NtpApi/Repositories/CountriesRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/NtpApi/Models/Country.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/NtpApi/Queries/FixturesQuery.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/NtpApi/Schemes/FixturesSchema.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/NtpApi/Settings/MongoSettings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/NtpApi/obj/Release/netcoreapp2.0/NtpApi.AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/NtpApi/Repositories/IFixturesRepository.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/NtpApi/Repositories/FixturesRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0A187203-E6D2-4921-8E20-F17602E8D6D2/23/f4b8464e/IDocumentExecuter.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/NtpApi/Startup.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/46A87A6D-D523-403B-B9F0-772D081CE278/3e/7599bc66/MongoClient.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/NtpApi/obj/Debug/netcoreapp2.0/NtpApi.AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/NtpApi/Controllers/GraphQLController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/NtpApi/Types/FixtureType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NtpApi/Models/Fixture.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NtpApi/Models/GraphQLQuery.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NtpApi/Context/Mongo/Context.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0A187203-E6D2-4921-8E20-F17602E8D6D2/23/3550b2b0/StringExtensions.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/NtpApi/Queries/NTPQuery.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NtpApi/Schemes/NTPSchema.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NtpApi/Settings/MongoSettings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/NtpApi/Repositories/FixturesRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0A187203-E6D2-4921-8E20-F17602E8D6D2/1c/cf597805/ObjectExtensions.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/NtpApi/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/46A87A6D-D523-403B-B9F0-772D081CE278/3e/7599bc66/MongoClient.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/NtpApi/Types/CountryType.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/NtpApi/Startup.cs" />
         <option value="$PROJECT_DIR$/NtpApi/Controllers/FixturesController.cs" />
-        <option value="$PROJECT_DIR$/NtpApi/Repositories/FixturesRepository.cs" />
         <option value="$PROJECT_DIR$/NtpApi/Dockerfile" />
         <option value="$PROJECT_DIR$/NtpApi/appsettings.json" />
         <option value="$PROJECT_DIR$/NtpApi/Mocks/fcb_rma_all.json" />
-        <option value="$PROJECT_DIR$/NtpApi/Queries/FixturesQuery.cs" />
         <option value="$PROJECT_DIR$/NtpApi/Controllers/GraphQLController.cs" />
         <option value="$PROJECT_DIR$/NtpApi/Models/Fixture.cs" />
         <option value="$PROJECT_DIR$/NtpApi/Types/FixtureType.cs" />
-        <option value="$PROJECT_DIR$/NtpApi/Context/Mongo/Context.cs" />
-        <option value="$PROJECT_DIR$/NtpApi/Mocks/coutries_1.json" />
         <option value="$PROJECT_DIR$/NtpApi/Models/Country.cs" />
+        <option value="$PROJECT_DIR$/NtpApi/Context/Mongo/Context.cs" />
+        <option value="$PROJECT_DIR$/NtpApi/Schemes/CountriesSchema.cs" />
+        <option value="$PROJECT_DIR$/NtpApi/Schemes/FixturesSchema.cs" />
+        <option value="$PROJECT_DIR$/NtpApi/Queries/FixturesQuery.cs" />
+        <option value="$PROJECT_DIR$/NtpApi/Mocks/coutries_1.json" />
+        <option value="$PROJECT_DIR$/NtpApi/Queries/CountriesQuery.cs" />
+        <option value="$PROJECT_DIR$/NtpApi/Schemes/NTPSchema.cs" />
+        <option value="$PROJECT_DIR$/NtpApi/Startup.cs" />
+        <option value="$PROJECT_DIR$/NtpApi/Queries/NTPQuery.cs" />
+        <option value="$PROJECT_DIR$/NtpApi/Repositories/CountriesRepository.cs" />
+        <option value="$PROJECT_DIR$/NtpApi/Repositories/ICollectionRepository.cs" />
+        <option value="$PROJECT_DIR$/NtpApi/Repositories/FixturesRepository.cs" />
+        <option value="$PROJECT_DIR$/NtpApi/Types/CountryType.cs" />
       </list>
     </option>
   </component>
@@ -303,6 +242,18 @@
               <item name="NtpApi (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="NtpApi" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Queries" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="NtpApi (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="NtpApi" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Repositories" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="NtpApi (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="NtpApi" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Schemes" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
@@ -449,12 +400,13 @@
       <workItem from="1524569539403" duration="928000" />
       <workItem from="1524571989407" duration="1500000" />
       <workItem from="1524573515688" duration="2802000" />
-      <workItem from="1524659779970" duration="6164000" />
+      <workItem from="1524659779970" duration="7350000" />
+      <workItem from="1524733640583" duration="17873000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16778000" />
+    <option name="totallyTimeSpent" value="35837000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -471,17 +423,17 @@
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946696" weight="0.32976446" />
       <window_info anchor="right" id="Errors In Solution" order="3" weight="0.32995737" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50319827" side_tool="true" visible="true" weight="0.30620986" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50479746" side_tool="true" weight="0.30620986" />
       <window_info anchor="bottom" id="Unit Tests" order="7" sideWeight="0.4989339" weight="0.32976446" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="REST Client" order="8" sideWeight="0.49840087" weight="0.32976446" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4968017" visible="true" weight="0.30620986" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49520257" visible="true" weight="0.30620986" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4978678" weight="0.32976446" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49413645" weight="0.32869378" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49307036" weight="0.32869378" />
       <window_info anchor="bottom" id="NuGet" order="7" sideWeight="0.49840087" weight="0.32976446" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2835821" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2867804" />
       <window_info anchor="bottom" id="Docker" order="7" sideWeight="0.7478678" weight="0.32976446" />
-      <window_info anchor="bottom" id="Build" order="8" sideWeight="0.49733475" weight="0.32976446" />
+      <window_info anchor="bottom" id="Build" order="8" sideWeight="0.49626866" weight="0.32976446" />
       <window_info anchor="right" id="Database" order="3" weight="0.32995737" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -494,6 +446,32 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="NuGet" order="7" sideWeight="0.49840087" weight="0.32976446" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="8" sideWeight="0.7478678" weight="0.32976446" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49520257" visible="true" weight="0.30620986" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2867804" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946696" weight="0.32976446" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="10" sideWeight="0.4989339" weight="0.32976446" />
+      <window_info anchor="bottom" id="REST Client" order="14" sideWeight="0.49840087" weight="0.32976446" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Errors In Solution" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32995737" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49307036" weight="0.32869378" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50479746" side_tool="true" weight="0.30620986" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.4978678" weight="0.32976446" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989339" weight="0.3993576" />
+      <window_info anchor="bottom" id="Build" order="15" sideWeight="0.49626866" weight="0.32976446" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -530,89 +508,29 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="11" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/NtpApi/Types/CountryType.cs</url>
+          <line>21</line>
+          <properties documentPath="$PROJECT_DIR$/NtpApi/Types/CountryType.cs" initialLine="21">
+            <startOffsets>
+              <startOffset value="732" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="733" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="18" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/NtpApi/Startup.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="88" selection-start-line="24" selection-start-column="88" selection-end-line="24" selection-end-column="88" />
-          <folding>
-            <marker date="1524569565918" expanded="true" signature="7:309" ph="..." />
-            <marker date="1524569565918" expanded="true" signature="327:1930" ph="{...}" />
-            <marker date="1524569565918" expanded="true" signature="354:1928" ph="{...}" />
-            <marker date="1524569565918" expanded="true" signature="413:476" ph="{...}" />
-            <marker date="1524569565918" expanded="true" signature="699:1542" ph="{...}" />
-            <marker date="1524569565918" expanded="true" signature="799:1060" ph="{...}" />
-            <marker date="1524569565918" expanded="true" signature="1730:1922" ph="{...}" />
-            <marker date="1524569565918" expanded="true" signature="1777:1854" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NtpApi/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-          <folding>
-            <marker date="1524214112069" expanded="true" signature="6:255" ph="..." />
-            <marker date="1524214112069" expanded="true" signature="273:594" ph="{...}" />
-            <marker date="1524214112069" expanded="true" signature="300:592" ph="{...}" />
-            <marker date="1524214112069" expanded="true" signature="353:411" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NtpApi/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NtpApi/appsettings.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NtpApi/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NtpApi/Schemes/FixturesSchema.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1524214112086" expanded="false" signature="6:56" ph="..." />
-            <marker date="1524214112086" expanded="true" signature="79:324" ph="{...}" />
-            <marker date="1524214112086" expanded="true" signature="122:322" ph="{...}" />
-            <marker date="1524214112086" expanded="true" signature="225:316" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.dcproj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="82" lean-forward="true" selection-start-line="7" selection-start-column="82" selection-end-line="7" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NtpApi/Repositories/IFixturesRepository.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-          <folding>
-            <marker date="1524214112083" expanded="false" signature="6:104" ph="..." />
-            <marker date="1524214112083" expanded="true" signature="135:299" ph="{...}" />
-            <marker date="1524214112083" expanded="true" signature="178:297" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -621,16 +539,22 @@
         <state relative-caret-position="102">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
-            <marker date="1524569565913" expanded="true" signature="6:199" ph="..." />
-            <marker date="1524569565913" expanded="true" signature="230:1200" ph="{...}" />
-            <marker date="1524569565913" expanded="true" signature="290:1198" ph="{...}" />
-            <marker date="1524569565913" expanded="true" signature="415:481" ph="{...}" />
-            <marker date="1524569565913" expanded="true" signature="549:820" ph="{...}" />
-            <marker date="1524569565913" expanded="true" signature="575:723" ph="{...}" />
-            <marker date="1524569565913" expanded="true" signature="756:810" ph="{...}" />
-            <marker date="1524569565913" expanded="true" signature="885:1192" ph="{...}" />
-            <marker date="1524569565913" expanded="true" signature="911:1095" ph="{...}" />
-            <marker date="1524569565913" expanded="true" signature="1128:1182" ph="{...}" />
+            <marker date="1524757764780" expanded="false" signature="6:199" ph="..." />
+            <marker date="1524757764780" expanded="true" signature="230:2044" ph="{...}" />
+            <marker date="1524757764780" expanded="true" signature="301:2042" ph="{...}" />
+            <marker date="1524757764780" expanded="true" signature="419:485" ph="{...}" />
+            <marker date="1524757764780" expanded="true" signature="550:821" ph="{...}" />
+            <marker date="1524757764780" expanded="true" signature="576:724" ph="{...}" />
+            <marker date="1524757764780" expanded="true" signature="757:811" ph="{...}" />
+            <marker date="1524757764780" expanded="true" signature="929:1241" ph="{...}" />
+            <marker date="1524757764780" expanded="true" signature="955:1144" ph="{...}" />
+            <marker date="1524757764780" expanded="true" signature="1177:1231" ph="{...}" />
+            <marker date="1524757764780" expanded="true" signature="1335:1655" ph="{...}" />
+            <marker date="1524757764780" expanded="true" signature="1361:1558" ph="{...}" />
+            <marker date="1524757764780" expanded="true" signature="1591:1645" ph="{...}" />
+            <marker date="1524757764780" expanded="true" signature="1729:2036" ph="{...}" />
+            <marker date="1524757764780" expanded="true" signature="1755:1939" ph="{...}" />
+            <marker date="1524757764780" expanded="true" signature="1972:2026" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -640,14 +564,14 @@
         <state relative-caret-position="408">
           <caret line="24" column="88" selection-start-line="24" selection-start-column="88" selection-end-line="24" selection-end-column="88" />
           <folding>
-            <marker date="1524569565918" expanded="true" signature="7:309" ph="..." />
-            <marker date="1524569565918" expanded="true" signature="327:1930" ph="{...}" />
-            <marker date="1524569565918" expanded="true" signature="354:1928" ph="{...}" />
-            <marker date="1524569565918" expanded="true" signature="413:476" ph="{...}" />
-            <marker date="1524569565918" expanded="true" signature="699:1542" ph="{...}" />
-            <marker date="1524569565918" expanded="true" signature="799:1060" ph="{...}" />
-            <marker date="1524569565918" expanded="true" signature="1730:1922" ph="{...}" />
-            <marker date="1524569565918" expanded="true" signature="1777:1854" ph="{...}" />
+            <marker date="1524742635353" expanded="false" signature="6:329" ph="..." />
+            <marker date="1524742635353" expanded="true" signature="347:2125" ph="{...}" />
+            <marker date="1524742635353" expanded="true" signature="374:2123" ph="{...}" />
+            <marker date="1524742635353" expanded="true" signature="433:496" ph="{...}" />
+            <marker date="1524742635353" expanded="true" signature="719:1737" ph="{...}" />
+            <marker date="1524742635353" expanded="true" signature="819:1080" ph="{...}" />
+            <marker date="1524742635353" expanded="true" signature="1925:2117" ph="{...}" />
+            <marker date="1524742635353" expanded="true" signature="1972:2049" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -683,11 +607,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-          <folding>
-            <marker date="1524214112083" expanded="false" signature="6:104" ph="..." />
-            <marker date="1524214112083" expanded="true" signature="135:299" ph="{...}" />
-            <marker date="1524214112083" expanded="true" signature="178:297" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -696,16 +615,22 @@
         <state relative-caret-position="102">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
-            <marker date="1524569565913" expanded="true" signature="6:199" ph="..." />
-            <marker date="1524569565913" expanded="true" signature="230:1200" ph="{...}" />
-            <marker date="1524569565913" expanded="true" signature="290:1198" ph="{...}" />
-            <marker date="1524569565913" expanded="true" signature="415:481" ph="{...}" />
-            <marker date="1524569565913" expanded="true" signature="549:820" ph="{...}" />
-            <marker date="1524569565913" expanded="true" signature="575:723" ph="{...}" />
-            <marker date="1524569565913" expanded="true" signature="756:810" ph="{...}" />
-            <marker date="1524569565913" expanded="true" signature="885:1192" ph="{...}" />
-            <marker date="1524569565913" expanded="true" signature="911:1095" ph="{...}" />
-            <marker date="1524569565913" expanded="true" signature="1128:1182" ph="{...}" />
+            <marker date="1524757764780" expanded="false" signature="6:199" ph="..." />
+            <marker date="1524757764780" expanded="true" signature="230:2044" ph="{...}" />
+            <marker date="1524757764780" expanded="true" signature="301:2042" ph="{...}" />
+            <marker date="1524757764780" expanded="true" signature="419:485" ph="{...}" />
+            <marker date="1524757764780" expanded="true" signature="550:821" ph="{...}" />
+            <marker date="1524757764780" expanded="true" signature="576:724" ph="{...}" />
+            <marker date="1524757764780" expanded="true" signature="757:811" ph="{...}" />
+            <marker date="1524757764780" expanded="true" signature="929:1241" ph="{...}" />
+            <marker date="1524757764780" expanded="true" signature="955:1144" ph="{...}" />
+            <marker date="1524757764780" expanded="true" signature="1177:1231" ph="{...}" />
+            <marker date="1524757764780" expanded="true" signature="1335:1655" ph="{...}" />
+            <marker date="1524757764780" expanded="true" signature="1361:1558" ph="{...}" />
+            <marker date="1524757764780" expanded="true" signature="1591:1645" ph="{...}" />
+            <marker date="1524757764780" expanded="true" signature="1729:2036" ph="{...}" />
+            <marker date="1524757764780" expanded="true" signature="1755:1939" ph="{...}" />
+            <marker date="1524757764780" expanded="true" signature="1972:2026" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -715,14 +640,14 @@
         <state relative-caret-position="408">
           <caret line="24" column="88" lean-forward="true" selection-start-line="24" selection-start-column="88" selection-end-line="24" selection-end-column="88" />
           <folding>
-            <marker date="1524569565918" expanded="true" signature="7:309" ph="..." />
-            <marker date="1524569565918" expanded="true" signature="327:1930" ph="{...}" />
-            <marker date="1524569565918" expanded="true" signature="354:1928" ph="{...}" />
-            <marker date="1524569565918" expanded="true" signature="413:476" ph="{...}" />
-            <marker date="1524569565918" expanded="true" signature="699:1542" ph="{...}" />
-            <marker date="1524569565918" expanded="true" signature="799:1060" ph="{...}" />
-            <marker date="1524569565918" expanded="true" signature="1730:1922" ph="{...}" />
-            <marker date="1524569565918" expanded="true" signature="1777:1854" ph="{...}" />
+            <marker date="1524742635353" expanded="false" signature="6:329" ph="..." />
+            <marker date="1524742635353" expanded="true" signature="347:2125" ph="{...}" />
+            <marker date="1524742635353" expanded="true" signature="374:2123" ph="{...}" />
+            <marker date="1524742635353" expanded="true" signature="433:496" ph="{...}" />
+            <marker date="1524742635353" expanded="true" signature="719:1737" ph="{...}" />
+            <marker date="1524742635353" expanded="true" signature="819:1080" ph="{...}" />
+            <marker date="1524742635353" expanded="true" signature="1925:2117" ph="{...}" />
+            <marker date="1524742635353" expanded="true" signature="1972:2049" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -747,14 +672,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NtpApi/Schemes/FixturesSchema.cs">
+    <entry file="file://$PROJECT_DIR$/NtpApi/Schemes/NTPSchema.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
-            <marker date="1524214112086" expanded="false" signature="6:56" ph="..." />
-            <marker date="1524214112086" expanded="true" signature="79:324" ph="{...}" />
-            <marker date="1524214112086" expanded="true" signature="122:322" ph="{...}" />
-            <marker date="1524214112086" expanded="true" signature="225:316" ph="{...}" />
+            <marker date="1524742575735" expanded="false" signature="6:56" ph="..." />
+            <marker date="1524742575735" expanded="true" signature="79:292" ph="{...}" />
+            <marker date="1524742575735" expanded="true" signature="117:290" ph="{...}" />
+            <marker date="1524742575735" expanded="true" signature="203:284" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -774,14 +699,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NtpApi/Schemes/FixturesSchema.cs">
+    <entry file="file://$PROJECT_DIR$/NtpApi/Schemes/NTPSchema.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
-            <marker date="1524214112086" expanded="false" signature="6:56" ph="..." />
-            <marker date="1524214112086" expanded="true" signature="79:324" ph="{...}" />
-            <marker date="1524214112086" expanded="true" signature="122:322" ph="{...}" />
-            <marker date="1524214112086" expanded="true" signature="225:316" ph="{...}" />
+            <marker date="1524742575735" expanded="false" signature="6:56" ph="..." />
+            <marker date="1524742575735" expanded="true" signature="79:292" ph="{...}" />
+            <marker date="1524742575735" expanded="true" signature="117:290" ph="{...}" />
+            <marker date="1524742575735" expanded="true" signature="203:284" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -790,11 +715,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-          <folding>
-            <marker date="1524214112083" expanded="false" signature="6:104" ph="..." />
-            <marker date="1524214112083" expanded="true" signature="135:299" ph="{...}" />
-            <marker date="1524214112083" expanded="true" signature="178:297" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -803,14 +723,14 @@
         <state relative-caret-position="765">
           <caret line="45" column="12" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="41" />
           <folding>
-            <marker date="1524569565918" expanded="true" signature="7:309" ph="..." />
-            <marker date="1524569565918" expanded="true" signature="327:1930" ph="{...}" />
-            <marker date="1524569565918" expanded="true" signature="354:1928" ph="{...}" />
-            <marker date="1524569565918" expanded="true" signature="413:476" ph="{...}" />
-            <marker date="1524569565918" expanded="true" signature="699:1542" ph="{...}" />
-            <marker date="1524569565918" expanded="true" signature="799:1060" ph="{...}" />
-            <marker date="1524569565918" expanded="true" signature="1730:1922" ph="{...}" />
-            <marker date="1524569565918" expanded="true" signature="1777:1854" ph="{...}" />
+            <marker date="1524742635353" expanded="false" signature="6:329" ph="..." />
+            <marker date="1524742635353" expanded="true" signature="347:2125" ph="{...}" />
+            <marker date="1524742635353" expanded="true" signature="374:2123" ph="{...}" />
+            <marker date="1524742635353" expanded="true" signature="433:496" ph="{...}" />
+            <marker date="1524742635353" expanded="true" signature="719:1737" ph="{...}" />
+            <marker date="1524742635353" expanded="true" signature="819:1080" ph="{...}" />
+            <marker date="1524742635353" expanded="true" signature="1925:2117" ph="{...}" />
+            <marker date="1524742635353" expanded="true" signature="1972:2049" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -833,16 +753,22 @@
         <state relative-caret-position="323">
           <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
           <folding>
-            <marker date="1524569565913" expanded="true" signature="6:199" ph="..." />
-            <marker date="1524569565913" expanded="true" signature="230:1200" ph="{...}" />
-            <marker date="1524569565913" expanded="true" signature="290:1198" ph="{...}" />
-            <marker date="1524569565913" expanded="true" signature="415:481" ph="{...}" />
-            <marker date="1524569565913" expanded="true" signature="549:820" ph="{...}" />
-            <marker date="1524569565913" expanded="true" signature="575:723" ph="{...}" />
-            <marker date="1524569565913" expanded="true" signature="756:810" ph="{...}" />
-            <marker date="1524569565913" expanded="true" signature="885:1192" ph="{...}" />
-            <marker date="1524569565913" expanded="true" signature="911:1095" ph="{...}" />
-            <marker date="1524569565913" expanded="true" signature="1128:1182" ph="{...}" />
+            <marker date="1524757764780" expanded="false" signature="6:199" ph="..." />
+            <marker date="1524757764780" expanded="true" signature="230:2044" ph="{...}" />
+            <marker date="1524757764780" expanded="true" signature="301:2042" ph="{...}" />
+            <marker date="1524757764780" expanded="true" signature="419:485" ph="{...}" />
+            <marker date="1524757764780" expanded="true" signature="550:821" ph="{...}" />
+            <marker date="1524757764780" expanded="true" signature="576:724" ph="{...}" />
+            <marker date="1524757764780" expanded="true" signature="757:811" ph="{...}" />
+            <marker date="1524757764780" expanded="true" signature="929:1241" ph="{...}" />
+            <marker date="1524757764780" expanded="true" signature="955:1144" ph="{...}" />
+            <marker date="1524757764780" expanded="true" signature="1177:1231" ph="{...}" />
+            <marker date="1524757764780" expanded="true" signature="1335:1655" ph="{...}" />
+            <marker date="1524757764780" expanded="true" signature="1361:1558" ph="{...}" />
+            <marker date="1524757764780" expanded="true" signature="1591:1645" ph="{...}" />
+            <marker date="1524757764780" expanded="true" signature="1729:2036" ph="{...}" />
+            <marker date="1524757764780" expanded="true" signature="1755:1939" ph="{...}" />
+            <marker date="1524757764780" expanded="true" signature="1972:2026" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -862,67 +788,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/NtpApi/Controllers/FixturesController.cs" />
-    <entry file="file://$PROJECT_DIR$/NtpApi/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-          <folding>
-            <marker date="1524214112069" expanded="true" signature="6:255" ph="..." />
-            <marker date="1524214112069" expanded="true" signature="273:594" ph="{...}" />
-            <marker date="1524214112069" expanded="true" signature="300:592" ph="{...}" />
-            <marker date="1524214112069" expanded="true" signature="353:411" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NtpApi/Startup.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="88" selection-start-line="24" selection-start-column="88" selection-end-line="24" selection-end-column="88" />
-          <folding>
-            <marker date="1524569565918" expanded="true" signature="7:309" ph="..." />
-            <marker date="1524569565918" expanded="true" signature="327:1930" ph="{...}" />
-            <marker date="1524569565918" expanded="true" signature="354:1928" ph="{...}" />
-            <marker date="1524569565918" expanded="true" signature="413:476" ph="{...}" />
-            <marker date="1524569565918" expanded="true" signature="699:1542" ph="{...}" />
-            <marker date="1524569565918" expanded="true" signature="799:1060" ph="{...}" />
-            <marker date="1524569565918" expanded="true" signature="1730:1922" ph="{...}" />
-            <marker date="1524569565918" expanded="true" signature="1777:1854" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NtpApi/Repositories/FixturesRepository.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <marker date="1524569565913" expanded="true" signature="6:199" ph="..." />
-            <marker date="1524569565913" expanded="true" signature="230:1200" ph="{...}" />
-            <marker date="1524569565913" expanded="true" signature="290:1198" ph="{...}" />
-            <marker date="1524569565913" expanded="true" signature="415:481" ph="{...}" />
-            <marker date="1524569565913" expanded="true" signature="549:820" ph="{...}" />
-            <marker date="1524569565913" expanded="true" signature="575:723" ph="{...}" />
-            <marker date="1524569565913" expanded="true" signature="756:810" ph="{...}" />
-            <marker date="1524569565913" expanded="true" signature="885:1192" ph="{...}" />
-            <marker date="1524569565913" expanded="true" signature="911:1095" ph="{...}" />
-            <marker date="1524569565913" expanded="true" signature="1128:1182" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NtpApi/Repositories/IFixturesRepository.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-          <folding>
-            <marker date="1524214112083" expanded="false" signature="6:104" ph="..." />
-            <marker date="1524214112083" expanded="true" signature="135:299" ph="{...}" />
-            <marker date="1524214112083" expanded="true" signature="178:297" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docker-compose.dcproj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -944,23 +809,105 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NtpApi/appsettings.Development.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NtpApi/Schemes/FixturesSchema.cs">
+    <entry file="file://$PROJECT_DIR$/NtpApi/Controllers/GraphQLController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="425">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
-            <marker date="1524214112086" expanded="false" signature="6:56" ph="..." />
-            <marker date="1524214112086" expanded="true" signature="79:324" ph="{...}" />
-            <marker date="1524214112086" expanded="true" signature="122:322" ph="{...}" />
-            <marker date="1524214112086" expanded="true" signature="225:316" ph="{...}" />
+            <marker date="1524661084636" expanded="true" signature="6:132" ph="..." />
+            <marker date="1524661084636" expanded="true" signature="270:1376" ph="{...}" />
+            <marker date="1524661084636" expanded="true" signature="466:566" ph="{...}" />
+            <marker date="1524661084636" expanded="true" signature="662:1370" ph="{...}" />
+            <marker date="1524661084636" expanded="true" signature="814:899" ph="{...}" />
+            <marker date="1524661084636" expanded="true" signature="917:1260" ph="{...}" />
+            <marker date="1524661084636" expanded="true" signature="1127:1210" ph="{...}" />
+            <marker date="1524661084636" expanded="true" signature="1293:1360" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NtpApi/Mocks/primera_2003.json">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/46A87A6D-D523-403B-B9F0-772D081CE278/3e/7599bc66/MongoClient.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="64" column="22" selection-start-line="64" selection-start-column="11" selection-end-line="64" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NtpApi/Context/Mongo/Context.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="42" />
+          <folding>
+            <marker date="1524735239160" expanded="false" signature="6:101" ph="..." />
+            <marker date="1524735239160" expanded="true" signature="123:846" ph="{...}" />
+            <marker date="1524735239160" expanded="true" signature="233:526" ph="{...}" />
+            <marker date="1524735239160" expanded="true" signature="251:441" ph="{...}" />
+            <marker date="1524735239160" expanded="true" signature="469:511" ph="{...}" />
+            <marker date="1524735239160" expanded="true" signature="573:682" ph="{...}" />
+            <marker date="1524735239160" expanded="true" signature="591:676" ph="{...}" />
+            <marker date="1524735239160" expanded="true" signature="734:844" ph="{...}" />
+            <marker date="1524735239160" expanded="true" signature="752:838" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NtpApi/Repositories/IFixturesRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NtpApi/Repositories/ICountriesRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NtpApi/Properties/launchSettings.json">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NtpApi/Queries/CountriesQuery.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NtpApi/Schemes/CountriesSchema.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NtpApi/Mocks/fcb_rma_all.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="529" column="19" selection-start-line="529" selection-start-column="18" selection-end-line="529" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NtpApi/Mocks/coutries_1.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NtpApi/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <folding>
+            <marker date="1524214112069" expanded="true" signature="6:255" ph="..." />
+            <marker date="1524214112069" expanded="true" signature="273:594" ph="{...}" />
+            <marker date="1524214112069" expanded="true" signature="300:592" ph="{...}" />
+            <marker date="1524214112069" expanded="true" signature="353:411" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/NtpApi/Settings/MongoSettings.cs">
       <provider selected="true" editor-type-id="text-editor">
@@ -968,6 +915,80 @@
           <folding>
             <marker date="1524214112091" expanded="true" signature="25:144" ph="{...}" />
             <marker date="1524214112091" expanded="true" signature="58:142" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NtpApi/Types/FixtureType.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-111">
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+          <folding>
+            <marker date="1524664914737" expanded="true" signature="6:41" ph="..." />
+            <marker date="1524664914737" expanded="true" signature="65:2288" ph="{...}" />
+            <marker date="1524664914737" expanded="true" signature="123:2286" ph="{...}" />
+            <marker date="1524664914737" expanded="true" signature="158:2280" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0A187203-E6D2-4921-8E20-F17602E8D6D2/23/3550b2b0/StringExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-49">
+          <caret line="96" column="25" selection-start-line="96" selection-start-column="25" selection-end-line="96" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NtpApi/Models/Country.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding>
+            <marker date="1524734685637" expanded="false" signature="6:64" ph="..." />
+            <marker date="1524734685637" expanded="true" signature="89:310" ph="{...}" />
+            <marker date="1524734685637" expanded="true" signature="117:308" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NtpApi/Schemes/NTPSchema.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="57" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
+          <folding>
+            <marker date="1524742575735" expanded="false" signature="6:56" ph="..." />
+            <marker date="1524742575735" expanded="true" signature="79:292" ph="{...}" />
+            <marker date="1524742575735" expanded="true" signature="117:290" ph="{...}" />
+            <marker date="1524742575735" expanded="true" signature="203:284" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NtpApi/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="40" column="75" selection-start-line="40" selection-start-column="75" selection-end-line="40" selection-end-column="75" />
+          <folding>
+            <marker date="1524742635353" expanded="false" signature="6:329" ph="..." />
+            <marker date="1524742635353" expanded="true" signature="347:2125" ph="{...}" />
+            <marker date="1524742635353" expanded="true" signature="374:2123" ph="{...}" />
+            <marker date="1524742635353" expanded="true" signature="433:496" ph="{...}" />
+            <marker date="1524742635353" expanded="true" signature="719:1737" ph="{...}" />
+            <marker date="1524742635353" expanded="true" signature="819:1080" ph="{...}" />
+            <marker date="1524742635353" expanded="true" signature="1925:2117" ph="{...}" />
+            <marker date="1524742635353" expanded="true" signature="1972:2049" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NtpApi/Models/Fixture.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="29" />
+          <folding>
+            <marker date="1524664693446" expanded="false" signature="6:64" ph="..." />
+            <marker date="1524664693446" expanded="true" signature="89:1406" ph="{...}" />
+            <marker date="1524664693446" expanded="true" signature="117:1404" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -983,107 +1004,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NtpApi/Mocks/fcb_rma_all.json">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0A187203-E6D2-4921-8E20-F17602E8D6D2/1c/cf597805/ObjectExtensions.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1233">
-          <caret line="555" column="23" lean-forward="true" selection-end-line="1012" />
+        <state relative-caret-position="53">
+          <caret line="83" column="25" selection-start-line="83" selection-start-column="25" selection-end-line="83" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NtpApi/Controllers/GraphQLController.cs">
+    <entry file="file://$PROJECT_DIR$/NtpApi/Repositories/ICollectionRepository.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="102">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
           <folding>
-            <marker date="1524661084636" expanded="true" signature="6:132" ph="..." />
-            <marker date="1524661084636" expanded="true" signature="162:1378" ph="{...}" />
-            <marker date="1524661084636" expanded="true" signature="270:1376" ph="{...}" />
-            <marker date="1524661084636" expanded="true" signature="466:566" ph="{...}" />
-            <marker date="1524661084636" expanded="true" signature="662:1370" ph="{...}" />
-            <marker date="1524661084636" expanded="true" signature="814:899" ph="{...}" />
-            <marker date="1524661084636" expanded="true" signature="917:1260" ph="{...}" />
-            <marker date="1524661084636" expanded="true" signature="1127:1210" ph="{...}" />
-            <marker date="1524661084636" expanded="true" signature="1293:1360" ph="{...}" />
+            <marker date="1524755842038" expanded="false" signature="6:83" ph="..." />
+            <marker date="1524755842038" expanded="true" signature="114:417" ph="{...}" />
+            <marker date="1524755842038" expanded="true" signature="162:415" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NtpApi/Types/FixtureType.cs">
+    <entry file="file://$PROJECT_DIR$/NtpApi/Queries/NTPQuery.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        <state relative-caret-position="365">
+          <caret line="49" column="70" selection-start-line="49" selection-start-column="70" selection-end-line="49" selection-end-column="77" />
           <folding>
-            <marker date="1524664914737" expanded="true" signature="6:41" ph="..." />
-            <marker date="1524664914737" expanded="true" signature="65:2288" ph="{...}" />
-            <marker date="1524664914737" expanded="true" signature="123:2286" ph="{...}" />
-            <marker date="1524664914737" expanded="true" signature="158:2280" ph="{...}" />
+            <marker date="1524751160001" expanded="true" signature="6:108" ph="..." />
+            <marker date="1524751160001" expanded="true" signature="134:1674" ph="{...}" />
+            <marker date="1524751160001" expanded="true" signature="180:1672" ph="{...}" />
+            <marker date="1524751160001" expanded="true" signature="360:1666" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NtpApi/Queries/FixturesQuery.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="70" selection-start-line="16" selection-start-column="70" selection-end-line="16" selection-end-column="70" />
-          <folding>
-            <marker date="1524660902396" expanded="true" signature="6:87" ph="..." />
-            <marker date="1524660902396" expanded="true" signature="113:851" ph="{...}" />
-            <marker date="1524660902396" expanded="true" signature="164:849" ph="{...}" />
-            <marker date="1524660902396" expanded="true" signature="239:843" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/46A87A6D-D523-403B-B9F0-772D081CE278/3e/7599bc66/MongoClient.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="64" column="22" selection-start-line="64" selection-start-column="11" selection-end-line="64" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NtpApi/Context/Mongo/Context.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <marker date="1524665429008" expanded="true" signature="6:101" ph="..." />
-            <marker date="1524665429008" expanded="true" signature="123:692" ph="{...}" />
-            <marker date="1524665429008" expanded="true" signature="233:534" ph="{...}" />
-            <marker date="1524665429008" expanded="true" signature="251:449" ph="{...}" />
-            <marker date="1524665429008" expanded="true" signature="477:519" ph="{...}" />
-            <marker date="1524665429008" expanded="true" signature="581:690" ph="{...}" />
-            <marker date="1524665429008" expanded="true" signature="599:684" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NtpApi/Mocks/coutries_1.json">
+    <entry file="file://$PROJECT_DIR$/NtpApi/Repositories/CountriesRepository.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret selection-end-line="41" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NtpApi/Models/Fixture.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="36" />
+          <caret line="39" column="75" selection-start-line="39" selection-start-column="75" selection-end-line="39" selection-end-column="75" />
           <folding>
-            <marker date="1524664693446" expanded="true" signature="6:64" ph="..." />
-            <marker date="1524664693446" expanded="true" signature="89:1406" ph="{...}" />
-            <marker date="1524664693446" expanded="true" signature="117:1404" ph="{...}" />
+            <marker date="1524755934234" expanded="true" signature="6:199" ph="..." />
+            <marker date="1524755934234" expanded="true" signature="230:2050" ph="{...}" />
+            <marker date="1524755934234" expanded="true" signature="302:2048" ph="{...}" />
+            <marker date="1524755934234" expanded="true" signature="421:487" ph="{...}" />
+            <marker date="1524755934234" expanded="true" signature="552:824" ph="{...}" />
+            <marker date="1524755934234" expanded="true" signature="578:727" ph="{...}" />
+            <marker date="1524755934234" expanded="true" signature="760:814" ph="{...}" />
+            <marker date="1524755934234" expanded="true" signature="932:1245" ph="{...}" />
+            <marker date="1524755934234" expanded="true" signature="958:1148" ph="{...}" />
+            <marker date="1524755934234" expanded="true" signature="1181:1235" ph="{...}" />
+            <marker date="1524755934234" expanded="true" signature="1319:1627" ph="{...}" />
+            <marker date="1524755934234" expanded="true" signature="1345:1530" ph="{...}" />
+            <marker date="1524755934234" expanded="true" signature="1563:1617" ph="{...}" />
+            <marker date="1524755934234" expanded="true" signature="1721:2042" ph="{...}" />
+            <marker date="1524755934234" expanded="true" signature="1747:1945" ph="{...}" />
+            <marker date="1524755934234" expanded="true" signature="1978:2032" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NtpApi/Models/Country.cs">
+    <entry file="file://$PROJECT_DIR$/NtpApi/Repositories/FixturesRepository.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        <state relative-caret-position="476">
+          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
           <folding>
-            <marker date="1524666577869" expanded="true" signature="6:64" ph="..." />
-            <marker date="1524666577869" expanded="true" signature="89:1406" ph="{...}" />
-            <marker date="1524666577869" expanded="true" signature="117:1404" ph="{...}" />
+            <marker date="1524757764780" expanded="false" signature="6:199" ph="..." />
+            <marker date="1524757764780" expanded="true" signature="230:2044" ph="{...}" />
+            <marker date="1524757764780" expanded="true" signature="301:2042" ph="{...}" />
+            <marker date="1524757764780" expanded="true" signature="419:485" ph="{...}" />
+            <marker date="1524757764780" expanded="true" signature="550:821" ph="{...}" />
+            <marker date="1524757764780" expanded="true" signature="576:724" ph="{...}" />
+            <marker date="1524757764780" expanded="true" signature="757:811" ph="{...}" />
+            <marker date="1524757764780" expanded="true" signature="929:1241" ph="{...}" />
+            <marker date="1524757764780" expanded="true" signature="955:1144" ph="{...}" />
+            <marker date="1524757764780" expanded="true" signature="1177:1231" ph="{...}" />
+            <marker date="1524757764780" expanded="true" signature="1335:1655" ph="{...}" />
+            <marker date="1524757764780" expanded="true" signature="1361:1558" ph="{...}" />
+            <marker date="1524757764780" expanded="true" signature="1591:1645" ph="{...}" />
+            <marker date="1524757764780" expanded="true" signature="1729:2036" ph="{...}" />
+            <marker date="1524757764780" expanded="true" signature="1755:1939" ph="{...}" />
+            <marker date="1524757764780" expanded="true" signature="1972:2026" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NtpApi/Types/CountryType.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="62" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
+          <folding>
+            <marker date="1524757979789" expanded="true" signature="6:117" ph="..." />
+            <marker date="1524757979789" expanded="true" signature="141:1013" ph="{...}" />
+            <marker date="1524757979789" expanded="true" signature="199:1011" ph="{...}" />
+            <marker date="1524757979789" expanded="true" signature="283:1005" ph="{...}" />
+            <marker date="1524757979789" expanded="true" signature="716:980" ph="{...}" />
           </folding>
         </state>
       </provider>

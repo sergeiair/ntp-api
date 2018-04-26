@@ -11,7 +11,7 @@ public class Context
     {
         try
         {
-            MongoClient client = new MongoClient(settings.Value.ConnectionString);
+            var client = new MongoClient(settings.Value.ConnectionString);
             
             _database = client.GetDatabase(settings.Value.Database);
             
@@ -27,6 +27,14 @@ public class Context
         get
         {
             return _database.GetCollection<Fixture>("fixtures");
+        }
+    }
+    
+    public IMongoCollection<Country> Countries
+    {
+        get
+        {
+            return _database.GetCollection<Country>("countries");
         }
     }
 }

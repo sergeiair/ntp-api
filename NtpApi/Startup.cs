@@ -1,5 +1,4 @@
-﻿
-using GraphQL;
+﻿using GraphQL;
 using GraphQL.Types;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -10,6 +9,7 @@ using NtpApi.Queries;
 using NtpApi.Repositories;
 using NtpApi.Settings;
 using NtpApi.Types;
+using NtpApi.Models;
 
 namespace NtpApi
 {
@@ -34,14 +34,19 @@ namespace NtpApi
                     = Configuration.GetSection("MongoConnection:Database").Value;
             });
 
-            services.AddScoped<FixturesQuery>();
-            services.AddTransient<IFixturesRepository, FixturesRepository>();
+            services.AddScoped<NTPQuery>();
             services.AddScoped<IDocumentExecuter, DocumentExecuter>();
+            
+            services.AddTransient<ICollectionRepository<Fixture>, FixturesRepository>();
+            services.AddTransient<ICollectionRepository<Country>, CountriesRepository>();
             services.AddTransient<FixtureType>();
+            services.AddTransient<CountryType>();
 
             var sp = services.BuildServiceProvider();
-            services.AddScoped<ISchema>(_ => new FixturesSchema(type => (GraphType)sp.GetService(type))
-                { Query = sp.GetService<FixturesQuery>() });
+            
+            services.AddScoped<ISchema>(_ => new NTPSchema(type => (GraphType)sp.GetService(type))
+                { Query = sp.GetService<NTPQuery>() });
+            
 
         }
 

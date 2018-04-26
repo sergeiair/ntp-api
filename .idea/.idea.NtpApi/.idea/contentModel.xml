@@ -45,20 +45,22 @@
           <e p="launchSettings.json" t="Include" />
         </e>
         <e p="Queries" t="Include">
-          <e p="FixturesQuery.cs" t="Include" />
+          <e p="NTPQuery.cs" t="Include" />
         </e>
         <e p="Repositories" t="Include">
+          <e p="CountriesRepository.cs" t="Include" />
           <e p="FixturesRepository.cs" t="Include" />
-          <e p="IFixturesRepository.cs" t="Include" />
+          <e p="ICollectionRepository.cs" t="Include" />
         </e>
         <e p="Schemes" t="Include">
-          <e p="FixturesSchema.cs" t="Include" />
+          <e p="NTPSchema.cs" t="Include" />
         </e>
         <e p="Settings" t="Include">
           <e p="MongoSettings.cs" t="Include" />
         </e>
         <e p="Startup.cs" t="Include" />
         <e p="Types" t="Include">
+          <e p="CountryType.cs" t="Include" />
           <e p="FixtureType.cs" t="Include" />
         </e>
         <e p="wwwroot" t="Include" />

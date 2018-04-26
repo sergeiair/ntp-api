@@ -9,20 +9,20 @@ using System.Threading.Tasks;
 
 namespace NtpApi.Repositories
 {
-    public class FixturesRepository : ICollectionRepository<Fixture>
+    public class CountriesRepository : ICollectionRepository<Country>
     {
         private readonly Context _context;
 
-        public FixturesRepository(IOptions<MongoSettings> settings)
+        public CountriesRepository(IOptions<MongoSettings> settings)
         {
             _context = new Context(settings);
         }
 
-        public async Task<IEnumerable<Fixture>> GetItemsAsync()
+        public async Task<IEnumerable<Country>> GetItemsAsync()
         {
             try
             {
-                return await _context.Fixtures
+                return await _context.Countries
                     .Find(_ => true)
                     .ToListAsync();
             }
@@ -32,12 +32,12 @@ namespace NtpApi.Repositories
             }
         }
         
-        public async Task<IEnumerable<Fixture>> GetItemsAsync(string paramName, object paramValue)
+        public async Task<IEnumerable<Country>> GetItemsAsync(string paramName, object paramValue)
         {
             try
             {
-                return await _context.Fixtures
-                    .Find(Builders<Fixture>.Filter.Eq(paramName, paramValue))
+                return await _context.Countries
+                    .Find(Builders<Country>.Filter.Eq(paramName, paramValue))
                     .ToListAsync();
             }
             catch (Exception ex)
@@ -46,12 +46,12 @@ namespace NtpApi.Repositories
             }
         }
         
-        public async Task<Fixture> GetItemAsync(string paramName, object paramValue)
+        public async Task<Country> GetItemByIdAsync(ObjectId id)
         {
             try
             {
-                return await _context.Fixtures
-                    .Find(Builders<Fixture>.Filter.Eq(paramName, paramValue))
+                return await _context.Countries
+                    .Find(Builders<Country>.Filter.Eq("id", id))
                     .FirstOrDefaultAsync();
             }
             catch (Exception ex)
@@ -60,12 +60,12 @@ namespace NtpApi.Repositories
             }
         }
         
-        public async Task<Fixture> GetItemByIdAsync(ObjectId id)
+        public async Task<Country> GetItemAsync(string paramName, object paramValue)
         {
             try
             {
-                return await _context.Fixtures
-                    .Find(Builders<Fixture>.Filter.Eq("id", id))
+                return await _context.Countries
+                    .Find(Builders<Country>.Filter.Eq(paramName, paramValue))
                     .FirstOrDefaultAsync();
             }
             catch (Exception ex)
