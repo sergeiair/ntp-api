@@ -11,7 +11,8 @@ namespace NtpApi.Queries
         public NTPQuery
         (
             ICollectionRepository<Country> countriesRepository,
-            ICollectionRepository<Fixture> fixturesRepository
+            ICollectionRepository<Fixture> fixturesRepository,
+            ICollectionRepository<Season> seasonsRepository
         )    
         {
             Field<CountryType>
@@ -31,7 +32,25 @@ namespace NtpApi.Queries
                 "countries",
                 resolve: context => countriesRepository.GetItemsAsync().Result
             );
-            
+
+            Field<SeasonType>
+            (
+                "season",
+                arguments: new QueryArguments
+                (
+                    new QueryArgument<NonNullGraphType<StringGraphType>>
+                    { Name = "id", Description = "Season id" }
+                ),
+                resolve: context => seasonsRepository
+                    .GetItemByIdAsync(context.GetArgument<ObjectId>("id")).Result
+            );
+
+            Field<ListGraphType<SeasonType>>
+            (
+                "seasons",
+                resolve: context => seasonsRepository.GetItemsAsync().Result
+            );
+
             Field<FixtureType>
             (
                 "fixture",

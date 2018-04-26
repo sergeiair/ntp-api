@@ -39,8 +39,10 @@ namespace NtpApi
             
             services.AddTransient<ICollectionRepository<Fixture>, FixturesRepository>();
             services.AddTransient<ICollectionRepository<Country>, CountriesRepository>();
+            services.AddTransient<ICollectionRepository<Season>, SeasonsRepository>();
             services.AddTransient<FixtureType>();
             services.AddTransient<CountryType>();
+            services.AddTransient<SeasonType>();
 
             var sp = services.BuildServiceProvider();
             

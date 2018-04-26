@@ -1,6 +1,5 @@
 [
     {
-      "_id": 31240,
       "Id_country": 122,
       "Id_league": 129,
       "Id_season": 107,
@@ -18,7 +17,6 @@
       "Team_season_home_name": "Barcelona"
     },
     {
-      "_id": 30971,
       "Id_country": 122,
       "Id_league": 129,
       "Id_season": 107,
@@ -45,7 +43,6 @@
       "Team_season_home_name": "Real Madrid"
     },
     {
-      "_id": 34408,
       "Id_country": 122,
       "Id_league": 129,
       "Id_season": 96,
@@ -72,7 +69,6 @@
       "Team_season_home_name": "Real Madrid"
     },
     {
-      "_id": 34556,
       "Id_country": 122,
       "Id_league": 129,
       "Id_season": 96,
@@ -99,7 +95,6 @@
       "Team_season_home_name": "Barcelona"
     },
     {
-      "_id": 32503,
       "Id_country": 122,
       "Id_league": 129,
       "Id_season": 102,
@@ -126,7 +121,6 @@
       "Team_season_home_name": "Barcelona"
     },
     {
-      "_id": 32667,
       "Id_country": 122,
       "Id_league": 129,
       "Id_season": 102,
@@ -153,7 +147,6 @@
       "Team_season_home_name": "Real Madrid"
     },
     {
-      "_id": 34819,
       "Id_country": 122,
       "Id_league": 129,
       "Id_season": 111,
@@ -180,7 +173,6 @@
       "Team_season_home_name": "Barcelona"
     },
     {
-      "_id": 35054,
       "Id_country": 122,
       "Id_league": 129,
       "Id_season": 111,
@@ -207,7 +199,6 @@
       "Team_season_home_name": "Real Madrid"
     },
     {
-      "_id": 35555,
       "Id_country": 122,
       "Id_league": 129,
       "Id_season": 100,
@@ -234,7 +225,6 @@
       "Team_season_home_name": "Real Madrid"
     },
     {
-      "_id": 35749,
       "Id_country": 122,
       "Id_league": 129,
       "Id_season": 100,
@@ -261,7 +251,6 @@
       "Team_season_home_name": "Barcelona"
     },
     {
-      "_id": 36368,
       "Id_country": 122,
       "Id_league": 129,
       "Id_season": 108,
@@ -288,7 +277,6 @@
       "Team_season_home_name": "Real Madrid"
     },
     {
-      "_id": 36560,
       "Id_country": 122,
       "Id_league": 129,
       "Id_season": 108,
@@ -315,7 +303,6 @@
       "Team_season_home_name": "Barcelona"
     },
     {
-      "_id": 32086,
       "Id_country": 122,
       "Id_league": 129,
       "Id_season": 97,
@@ -341,7 +328,6 @@
       "Team_season_home_name": "Barcelona"
     },
     {
-      "_id": 32250,
       "Id_country": 122,
       "Id_league": 129,
       "Id_season": 97,
@@ -367,7 +353,6 @@
       "Team_season_home_name": "Real Madrid"
     },
     {
-      "_id": 21454,
       "Id_country": 82,
       "Id_league": 34,
       "Id_season": 59,
@@ -393,7 +378,6 @@
       "Team_season_home_name": "Barcelona"
     },
     {
-      "_id": 21459,
       "Id_country": 82,
       "Id_league": 34,
       "Id_season": 59,
@@ -419,7 +403,6 @@
       "Team_season_home_name": "Real Madrid"
     },
     {
-      "_id": 37113,
       "Id_country": 122,
       "Id_league": 129,
       "Id_season": 103,
@@ -445,7 +428,6 @@
       "Team_season_home_name": "Real Madrid"
     },
     {
-      "_id": 37234,
       "Id_country": 122,
       "Id_league": 129,
       "Id_season": 103,
@@ -471,7 +453,6 @@
       "Team_season_home_name": "Barcelona"
     },
     {
-      "_id": 34042,
       "Id_country": 122,
       "Id_league": 129,
       "Id_season": 112,
@@ -497,7 +478,6 @@
       "Team_season_home_name": "Real Madrid"
     },
     {
-      "_id": 34209,
       "Id_country": 122,
       "Id_league": 129,
       "Id_season": 112,
@@ -523,7 +503,6 @@
       "Team_season_home_name": "Barcelona"
     },
     {
-      "_id": 33235,
       "Id_country": 122,
       "Id_league": 129,
       "Id_season": 101,
@@ -548,7 +527,6 @@
       "Team_season_home_name": "Real Madrid"
     },
     {
-      "_id": 33497,
       "Id_country": 122,
       "Id_league": 129,
       "Id_season": 101,
@@ -574,7 +552,6 @@
       "Team_season_home_name": "Barcelona"
     },
     {
-      "_id": 37807,
       "Id_country": 122,
       "Id_league": 129,
       "Id_season": 109,
@@ -600,7 +577,6 @@
       "Team_season_home_name": "Real Madrid"
     },
     {
-      "_id": 38006,
       "Id_country": 122,
       "Id_league": 129,
       "Id_season": 109,
@@ -626,7 +602,6 @@
       "Team_season_home_name": "Barcelona"
     },
     {
-      "_id": 31455,
       "Id_country": 122,
       "Id_league": 129,
       "Id_season": 98,
@@ -653,7 +628,6 @@
       "Team_season_home_name": "Barcelona"
     },
     {
-      "_id": 31626,
       "Id_country": 122,
       "Id_league": 129,
       "Id_season": 98,
@@ -680,7 +654,6 @@
       "Team_season_home_name": "Real Madrid"
     },
     {
-      "_id": 32899,
       "Id_country": 122,
       "Id_league": 129,
       "Id_season": 105,
@@ -706,7 +679,6 @@
       "Team_season_home_name": "Barcelona"
     },
     {
-      "_id": 33102,
       "Id_country": 122,
       "Id_league": 129,
       "Id_season": 105,
@@ -733,7 +705,6 @@
       "Team_season_home_name": "Real Madrid"
     },
     {
-      "_id": 33678,
       "Id_country": 122,
       "Id_league": 129,
       "Id_season": 113,
@@ -760,7 +731,6 @@
       "Team_season_home_name": "Real Madrid"
     },
     {
-      "_id": 33859,
       "Id_country": 122,
       "Id_league": 129,
       "Id_season": 113,
@@ -786,7 +756,6 @@
       "Team_season_home_name": "Barcelona"
     },
     {
-      "_id": 36656,
       "Id_country": 122,
       "Id_league": 129,
       "Id_season": 104,
@@ -808,7 +777,6 @@
       "Team_season_home_name": "Real Madrid"
     },
     {
-      "_id": 36839,
       "Id_country": 122,
       "Id_league": 129,
       "Id_season": 104,
@@ -830,7 +798,6 @@
       "Team_season_home_name": "Barcelona"
     },
     {
-      "_id": 31771,
       "Id_country": 122,
       "Id_league": 129,
       "Id_season": 110,
@@ -853,7 +820,6 @@
       "Team_season_home_name": "Real Madrid"
     },
     {
-      "_id": 31950,
       "Id_country": 122,
       "Id_league": 129,
       "Id_season": 110,
@@ -875,7 +841,6 @@
       "Team_season_home_name": "Barcelona"
     },
     {
-      "_id": 22745,
       "Id_country": 82,
       "Id_league": 34,
       "Id_season": 69,
@@ -898,7 +863,6 @@
       "Team_season_home_name": "Real Madrid"
     },
     {
-      "_id": 22747,
       "Id_country": 82,
       "Id_league": 34,
       "Id_season": 69,
@@ -921,7 +885,6 @@
       "Team_season_home_name": "Barcelona"
     },
     {
-      "_id": 35930,
       "Id_country": 122,
       "Id_league": 129,
       "Id_season": 99,
@@ -944,7 +907,6 @@
       "Team_season_home_name": "Barcelona"
     },
     {
-      "_id": 36178,
       "Id_country": 122,
       "Id_league": 129,
       "Id_season": 99,
@@ -967,7 +929,6 @@
       "Team_season_home_name": "Real Madrid"
     },
     {
-      "_id": 37514,
       "Id_country": 122,
       "Id_league": 129,
       "Id_season": 106,
@@ -990,7 +951,6 @@
       "Team_season_home_name": "Real Madrid"
     },
     {
-      "_id": 37655,
       "Id_country": 122,
       "Id_league": 129,
       "Id_season": 106,
@@ -1012,7 +972,6 @@
       "Team_season_home_name": "Barcelona"
     },
     {
-      "_id": 35254,
       "Id_country": 122,
       "Id_league": 129,
       "Id_season": 114,
@@ -1033,7 +992,6 @@
       "Team_season_home_name": "Real Madrid"
     },
     {
-      "_id": 35416,
       "Id_country": 122,
       "Id_league": 129,
       "Id_season": 114,

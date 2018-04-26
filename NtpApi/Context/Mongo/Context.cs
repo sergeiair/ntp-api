@@ -37,4 +37,12 @@ public class Context
             return _database.GetCollection<Country>("countries");
         }
     }
+
+    public IMongoCollection<Season> Seasons
+    {
+        get
+        {
+            return _database.GetCollection<Season>("seasons");
+        }
+    }
 }
