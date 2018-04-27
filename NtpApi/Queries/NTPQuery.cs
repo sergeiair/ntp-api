@@ -24,7 +24,7 @@ namespace NtpApi.Queries
                         { Name = "code", Description = "Country code" }
                 ),
                 resolve: context => countriesRepository
-                    .GetItemAsync("code", context.GetArgument<ObjectId>("code")).Result
+                    .GetItemAsync("Code", context.GetArgument<string>("code")).Result
             );
             
             Field<ListGraphType<CountryType>>
@@ -39,7 +39,7 @@ namespace NtpApi.Queries
                 arguments: new QueryArguments
                 (
                     new QueryArgument<NonNullGraphType<StringGraphType>>
-                    { Name = "id", Description = "Season id" }
+                        { Name = "id", Description = "Season id" }
                 ),
                 resolve: context => seasonsRepository
                     .GetItemByIdAsync(context.GetArgument<ObjectId>("id")).Result
@@ -66,7 +66,7 @@ namespace NtpApi.Queries
             Field<ListGraphType<FixtureType>>
             (
                 "fixtures",
-                resolve: context => fixturesRepository.GetItemsAsync().Result
+                    resolve: context => fixturesRepository.GetItemsAsync().Result
             );
         }
     }

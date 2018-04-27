@@ -36,6 +36,7 @@ namespace NtpApi.Repositories
         {
             try
             {
+
                 return await _context.Countries
                     .Find(Builders<Country>.Filter.Eq(paramName, paramValue))
                     .ToListAsync();
@@ -64,6 +65,8 @@ namespace NtpApi.Repositories
         {
             try
             {
+                Console.WriteLine(paramName);
+                Console.WriteLine(paramValue);
                 return await _context.Countries
                     .Find(Builders<Country>.Filter.Eq(paramName, paramValue))
                     .FirstOrDefaultAsync();
