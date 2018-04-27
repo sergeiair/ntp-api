@@ -21,10 +21,10 @@ namespace NtpApi.Queries
                 arguments: new QueryArguments
                 (
                     new QueryArgument<NonNullGraphType<StringGraphType>>
-                        { Name = "id", Description = "Country id" }
+                        { Name = "code", Description = "Country code" }
                 ),
                 resolve: context => countriesRepository
-                    .GetItemByIdAsync(context.GetArgument<ObjectId>("id")).Result
+                    .GetItemAsync("code", context.GetArgument<ObjectId>("code")).Result
             );
             
             Field<ListGraphType<CountryType>>

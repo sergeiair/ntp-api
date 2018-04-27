@@ -9,13 +9,3 @@ D:\OWN_PROJECTS\NTP_API\NtpApi\NtpApi\obj\Debug\netcoreapp2.0\NtpApi.AssemblyInf
 D:\OWN_PROJECTS\NTP_API\NtpApi\NtpApi\obj\Debug\netcoreapp2.0\NtpApi.AssemblyInfo.cs
 D:\OWN_PROJECTS\NTP_API\NtpApi\NtpApi\obj\Debug\netcoreapp2.0\NtpApi.dll
 D:\OWN_PROJECTS\NTP_API\NtpApi\NtpApi\obj\Debug\netcoreapp2.0\NtpApi.pdb
-C:\Users\siarhei.zhardzetski\RiderProjects\ntp-api\NtpApi\bin\Debug\netcoreapp2.0\NtpApi.dll
-C:\Users\siarhei.zhardzetski\RiderProjects\ntp-api\NtpApi\bin\Debug\netcoreapp2.0\NtpApi.deps.json
-C:\Users\siarhei.zhardzetski\RiderProjects\ntp-api\NtpApi\bin\Debug\netcoreapp2.0\NtpApi.runtimeconfig.json
-C:\Users\siarhei.zhardzetski\RiderProjects\ntp-api\NtpApi\bin\Debug\netcoreapp2.0\NtpApi.runtimeconfig.dev.json
-C:\Users\siarhei.zhardzetski\RiderProjects\ntp-api\NtpApi\bin\Debug\netcoreapp2.0\NtpApi.pdb
-C:\Users\siarhei.zhardzetski\RiderProjects\ntp-api\NtpApi\obj\Debug\netcoreapp2.0\NtpApi.csproj.CoreCompileInputs.cache
-C:\Users\siarhei.zhardzetski\RiderProjects\ntp-api\NtpApi\obj\Debug\netcoreapp2.0\NtpApi.AssemblyInfoInputs.cache
-C:\Users\siarhei.zhardzetski\RiderProjects\ntp-api\NtpApi\obj\Debug\netcoreapp2.0\NtpApi.AssemblyInfo.cs
-C:\Users\siarhei.zhardzetski\RiderProjects\ntp-api\NtpApi\obj\Debug\netcoreapp2.0\NtpApi.dll
-C:\Users\siarhei.zhardzetski\RiderProjects\ntp-api\NtpApi\obj\Debug\netcoreapp2.0\NtpApi.pdb

@@ -31,6 +31,7 @@
           <e p="Country.cs" t="Include" />
           <e p="Fixture.cs" t="Include" />
           <e p="GraphQLQuery.cs" t="Include" />
+          <e p="Season.cs" t="Include" />
         </e>
         <e p="NtpApi.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
@@ -47,10 +48,12 @@
         <e p="Queries" t="Include">
           <e p="NTPQuery.cs" t="Include" />
         </e>
+        <e p="readme.md" t="Include" />
         <e p="Repositories" t="Include">
           <e p="CountriesRepository.cs" t="Include" />
           <e p="FixturesRepository.cs" t="Include" />
           <e p="ICollectionRepository.cs" t="Include" />
+          <e p="SeasonsRepository.cs" t="Include" />
         </e>
         <e p="Schemes" t="Include">
           <e p="NTPSchema.cs" t="Include" />
@@ -62,6 +65,7 @@
         <e p="Types" t="Include">
           <e p="CountryType.cs" t="Include" />
           <e p="FixtureType.cs" t="Include" />
+          <e p="SeasonType.cs" t="Include" />
         </e>
         <e p="wwwroot" t="Include" />
       </e>
