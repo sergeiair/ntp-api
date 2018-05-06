@@ -11,7 +11,7 @@ namespace NtpApi.Queries
         public NTPQuery
         (
             ICollectionRepository<Country> countriesRepository,
-            ICollectionRepository<Fixture> fixturesRepository,
+            ITeamsCollectionRepository<Fixture> fixturesRepository,
             ICollectionRepository<Season> seasonsRepository
         )    
         {
@@ -24,13 +24,16 @@ namespace NtpApi.Queries
                         { Name = "code", Description = "Country code" }
                 ),
                 resolve: context => countriesRepository
-                    .GetItemAsync("Code", context.GetArgument<string>("code")).Result
+                    .GetItemAsync("Code", context.GetArgument<string>("code"))
+                    .Result
             );
             
             Field<ListGraphType<CountryType>>
             (
                 "countries",
-                resolve: context => countriesRepository.GetItemsAsync().Result
+                resolve: context => countriesRepository
+                    .GetItemsAsync()
+                    .Result
             );
 
             Field<SeasonType>
@@ -42,31 +45,41 @@ namespace NtpApi.Queries
                         { Name = "id", Description = "Season id" }
                 ),
                 resolve: context => seasonsRepository
-                    .GetItemByIdAsync(context.GetArgument<ObjectId>("id")).Result
+                    .GetItemByIdAsync(context.GetArgument<ObjectId>("id"))
+                    .Result
             );
 
             Field<ListGraphType<SeasonType>>
             (
                 "seasons",
-                resolve: context => seasonsRepository.GetItemsAsync().Result
+                resolve: context => seasonsRepository
+                    .GetItemsAsync()
+                    .Result
             );
 
-            Field<FixtureType>
+            Field<ListGraphType<FixtureType>>
             (
-                "fixture",
+                "teamsFixtures",
                 arguments: new QueryArguments
                 (
-                    new QueryArgument<NonNullGraphType<IntGraphType>> 
-                        { Name = "id", Description = "Fixture id" }
+                    new QueryArgument<NonNullGraphType<StringGraphType>> 
+                        { Name = "team1", Description = "Team 1 name" },
+                    new QueryArgument<NonNullGraphType<StringGraphType>>
+                        { Name = "team2", Description = "Team 2 name" }
                 ),
                 resolve: context => fixturesRepository
-                    .GetItemByIdAsync(context.GetArgument<ObjectId>("id")).Result
+                    .GetItemsByTeamsAsync(
+                        context.GetArgument<string>("team1"),
+                        context.GetArgument<string>("team2")
+                    ).Result
             );
 
             Field<ListGraphType<FixtureType>>
             (
                 "fixtures",
-                    resolve: context => fixturesRepository.GetItemsAsync().Result
+                    resolve: context => fixturesRepository
+                        .GetItemsAsync()
+                        .Result
             );
         }
     }

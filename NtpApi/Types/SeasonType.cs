@@ -6,7 +6,7 @@ namespace NtpApi.Types
 {
     public class SeasonType : ObjectGraphType<Season>
     {
-        public SeasonType(ICollectionRepository<Fixture> fixturesRepository)
+        public SeasonType(ITeamsCollectionRepository<Fixture> fixturesRepository)
         {
             Field(season => season.Id, type: typeof(StringGraphType));
             Field(season => season.Id_country, type: typeof(IntGraphType));

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace NtpApi.Repositories
 {
-    public class FixturesRepository : ICollectionRepository<Fixture>
+    public class FixturesRepository : ITeamsCollectionRepository<Fixture>
     {
         private readonly Context _context;
 
@@ -32,6 +32,20 @@ namespace NtpApi.Repositories
             }
         }
         
+        public async Task<IEnumerable<Fixture>> GetItemsByTeamsAsync(string team1Name, string team2Name)
+        {
+            try
+            {
+                return await _context.Fixtures
+                    .Find(Builders<Fixture>.Filter.Text(team1Name + " " + team2Name))
+                    .ToListAsync();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
         public async Task<IEnumerable<Fixture>> GetItemsAsync(string paramName, object paramValue)
         {
             try
@@ -45,7 +59,7 @@ namespace NtpApi.Repositories
                 throw ex;
             }
         }
-        
+
         public async Task<Fixture> GetItemAsync(string paramName, object paramValue)
         {
             try

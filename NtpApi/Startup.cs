@@ -37,7 +37,7 @@ namespace NtpApi
             services.AddScoped<NTPQuery>();
             services.AddScoped<IDocumentExecuter, DocumentExecuter>();
             
-            services.AddTransient<ICollectionRepository<Fixture>, FixturesRepository>();
+            services.AddTransient<ITeamsCollectionRepository<Fixture>, FixturesRepository>();
             services.AddTransient<ICollectionRepository<Country>, CountriesRepository>();
             services.AddTransient<ICollectionRepository<Season>, SeasonsRepository>();
             services.AddTransient<FixtureType>();
