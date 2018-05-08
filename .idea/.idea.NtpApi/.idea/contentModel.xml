@@ -15,15 +15,19 @@
         </e>
         <e p="Controllers" t="Include">
           <e p="GraphQLController.cs" t="Include" />
+          <e p="TransformationsController.cs" t="Include" />
         </e>
         <e p="Dockerfile" t="Include" />
-        <e p="Mocks" t="Include">
+        <e p="Json" t="Include">
           <e p="coutries_1.json" t="Include" />
           <e p="fcb_rma_all.json" t="Include" />
+          <e p="head2head.json" t="Include" />
           <e p="primera_2003.json" t="Include" />
           <e p="primera_seasons" t="Include" />
           <e p="refresh.txt" t="Include" />
+          <e p="seasons_all.json" t="Include" />
           <e p="spain_leagues.json" t="Include" />
+          <e p="teams_all.json" t="Include" />
           <e p="teamSeasons_fcb.json" t="Include" />
           <e p="teamSeasons_rma.json" t="Include" />
         </e>
@@ -33,6 +37,7 @@
           <e p="FixturesPrediction.cs" t="Include" />
           <e p="GraphQLQuery.cs" t="Include" />
           <e p="Season.cs" t="Include" />
+          <e p="SerializationFixture.cs" t="Include" />
         </e>
         <e p="NtpApi.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
@@ -64,6 +69,9 @@
           <e p="computation" t="Include">
             <e p="ComputationConfig.cs" t="Include" />
             <e p="FixturesComputation.cs" t="Include" />
+          </e>
+          <e p="Mongo" t="Include">
+            <e p="JsonAdapter.cs" t="Include" />
           </e>
         </e>
         <e p="Settings" t="Include">
