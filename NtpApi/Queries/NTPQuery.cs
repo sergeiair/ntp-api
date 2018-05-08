@@ -1,7 +1,8 @@
-﻿using GraphQL.Types;
-using MongoDB.Bson;
+﻿using System.Linq;
+using GraphQL.Types;
 using NtpApi.Models;
 using NtpApi.Repositories;
+using NtpApi.Services.Computation;
 using NtpApi.Types;
 
 namespace NtpApi.Queries
@@ -24,7 +25,7 @@ namespace NtpApi.Queries
                         { Name = "code", Description = "Country code" }
                 ),
                 resolve: context => countriesRepository
-                    .GetItemAsync("Code", context.GetArgument<string>("code"))
+                    .GetItemAsync("code", context.GetArgument<string>("code"))
                     .Result
             );
             
@@ -41,11 +42,11 @@ namespace NtpApi.Queries
                 "season",
                 arguments: new QueryArguments
                 (
-                    new QueryArgument<NonNullGraphType<StringGraphType>>
-                        { Name = "id", Description = "Season id" }
+                    new QueryArgument<NonNullGraphType<IntGraphType>>
+                        { Name = "idSeason", Description = "Season id" }
                 ),
                 resolve: context => seasonsRepository
-                    .GetItemByIdAsync(context.GetArgument<ObjectId>("id"))
+                    .GetItemAsync("Id_season", context.GetArgument<int>("idSeason"))
                     .Result
             );
 
@@ -57,6 +58,30 @@ namespace NtpApi.Queries
                     .Result
             );
 
+            Field<FixturesPredictionType>
+            (
+                "teamsPrediction",
+                arguments: new QueryArguments
+                (
+                    new QueryArgument<NonNullGraphType<StringGraphType>> 
+                        { Name = "team1", Description = "Team 1 name" },
+                    new QueryArgument<NonNullGraphType<StringGraphType>>
+                        { Name = "team2", Description = "Team 2 name" }
+                ),
+                resolve: context =>
+                {
+                    var firstTeam = context.GetArgument<string>("team1");
+                    var secondTeam = context.GetArgument<string>("team2");
+                    var fixtures = fixturesRepository
+                        .GetItemsByTeamsAsync(firstTeam, secondTeam)
+                        .Result;        
+                    
+                    return FixturesComputation.GetPrediction(
+                        firstTeam, secondTeam, fixtures.ToList()
+                    );
+                }
+            );
+            
             Field<ListGraphType<FixtureType>>
             (
                 "teamsFixtures",
@@ -77,9 +102,9 @@ namespace NtpApi.Queries
             Field<ListGraphType<FixtureType>>
             (
                 "fixtures",
-                    resolve: context => fixturesRepository
-                        .GetItemsAsync()
-                        .Result
+                resolve: context => fixturesRepository
+                    .GetItemsAsync()
+                    .Result
             );
         }
     }

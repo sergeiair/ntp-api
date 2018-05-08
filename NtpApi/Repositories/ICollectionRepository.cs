@@ -8,7 +8,6 @@ namespace NtpApi.Repositories
     {
         Task<IEnumerable<T>> GetItemsAsync(string paramName, object paramValue);
         Task<IEnumerable<T>> GetItemsAsync();
-        Task<T> GetItemByIdAsync(ObjectId id);
         Task<T> GetItemAsync(string paramName, object paramValue);
     }
 }

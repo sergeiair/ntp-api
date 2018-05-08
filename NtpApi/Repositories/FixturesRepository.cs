@@ -36,8 +36,10 @@ namespace NtpApi.Repositories
         {
             try
             {
+                var filterStr = "\"" + team1Name + "\"\"" + team2Name + "\"";
+              
                 return await _context.Fixtures
-                    .Find(Builders<Fixture>.Filter.Text(team1Name + " " + team2Name))
+                    .Find(Builders<Fixture>.Filter.Text(filterStr))
                     .ToListAsync();
             }
             catch (Exception ex)
@@ -66,20 +68,6 @@ namespace NtpApi.Repositories
             {
                 return await _context.Fixtures
                     .Find(Builders<Fixture>.Filter.Eq(paramName, paramValue))
-                    .FirstOrDefaultAsync();
-            }
-            catch (Exception ex)
-            {
-                throw ex;
-            }
-        }
-        
-        public async Task<Fixture> GetItemByIdAsync(ObjectId id)
-        {
-            try
-            {
-                return await _context.Fixtures
-                    .Find(Builders<Fixture>.Filter.Eq("id", id))
                     .FirstOrDefaultAsync();
             }
             catch (Exception ex)

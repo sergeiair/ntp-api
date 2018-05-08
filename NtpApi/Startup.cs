@@ -43,6 +43,7 @@ namespace NtpApi
             services.AddTransient<FixtureType>();
             services.AddTransient<CountryType>();
             services.AddTransient<SeasonType>();
+            services.AddTransient<FixturesPredictionType>();
 
             var sp = services.BuildServiceProvider();
             

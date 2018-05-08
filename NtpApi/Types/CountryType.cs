@@ -1,5 +1,4 @@
-﻿
-using GraphQL.Types;
+﻿using GraphQL.Types;
 using NtpApi.Models;
 using NtpApi.Repositories;
 
@@ -17,7 +16,8 @@ namespace NtpApi.Types
             Field<ListGraphType<SeasonType>>(
                "seasons",
                resolve: context => seasonsRepository
-                    .GetItemsAsync("Id_country", context.Source.Id_country).Result
+                   .GetItemsAsync("Id_country", context.Source.Id_country)
+                   .Result
             );
         }
     }

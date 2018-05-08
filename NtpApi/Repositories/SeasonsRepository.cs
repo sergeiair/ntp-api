@@ -46,20 +46,6 @@ namespace NtpApi.Repositories
             }
         }
         
-        public async Task<Season> GetItemByIdAsync(ObjectId id)
-        {
-            try
-            {
-                return await _context.Seasons
-                    .Find(Builders<Season>.Filter.Eq("id", id))
-                    .FirstOrDefaultAsync();
-            }
-            catch (Exception ex)
-            {
-                throw ex;
-            }
-        }
-        
         public async Task<Season> GetItemAsync(string paramName, object paramValue)
         {
             try

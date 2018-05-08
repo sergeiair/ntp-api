@@ -30,6 +30,7 @@
         <e p="Models" t="Include">
           <e p="Country.cs" t="Include" />
           <e p="Fixture.cs" t="Include" />
+          <e p="FixturesPrediction.cs" t="Include" />
           <e p="GraphQLQuery.cs" t="Include" />
           <e p="Season.cs" t="Include" />
         </e>
@@ -53,10 +54,17 @@
           <e p="CountriesRepository.cs" t="Include" />
           <e p="FixturesRepository.cs" t="Include" />
           <e p="ICollectionRepository.cs" t="Include" />
+          <e p="ITeamsCollectionRepositorycs.cs" t="Include" />
           <e p="SeasonsRepository.cs" t="Include" />
         </e>
         <e p="Schemes" t="Include">
           <e p="NTPSchema.cs" t="Include" />
+        </e>
+        <e p="Services" t="Include">
+          <e p="computation" t="Include">
+            <e p="ComputationConfig.cs" t="Include" />
+            <e p="FixturesComputation.cs" t="Include" />
+          </e>
         </e>
         <e p="Settings" t="Include">
           <e p="MongoSettings.cs" t="Include" />
@@ -64,6 +72,7 @@
         <e p="Startup.cs" t="Include" />
         <e p="Types" t="Include">
           <e p="CountryType.cs" t="Include" />
+          <e p="FixturesPredictionType.cs" t="Include" />
           <e p="FixtureType.cs" t="Include" />
           <e p="SeasonType.cs" t="Include" />
         </e>

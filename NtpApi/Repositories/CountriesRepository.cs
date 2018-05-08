@@ -47,26 +47,10 @@ namespace NtpApi.Repositories
             }
         }
         
-        public async Task<Country> GetItemByIdAsync(ObjectId id)
-        {
-            try
-            {
-                return await _context.Countries
-                    .Find(Builders<Country>.Filter.Eq("id", id))
-                    .FirstOrDefaultAsync();
-            }
-            catch (Exception ex)
-            {
-                throw ex;
-            }
-        }
-        
         public async Task<Country> GetItemAsync(string paramName, object paramValue)
         {
             try
             {
-                Console.WriteLine(paramName);
-                Console.WriteLine(paramValue);
                 return await _context.Countries
                     .Find(Builders<Country>.Filter.Eq(paramName, paramValue))
                     .FirstOrDefaultAsync();
