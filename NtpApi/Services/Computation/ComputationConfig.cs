@@ -13,17 +13,17 @@
         
         private const double TeamLossPoints = 0;
 
-        public static double GetTeamDrawPoints(bool isAway)
+        public static double GetTeamDrawPoints(bool atHome)
         {
-            return isAway
-                ? AwayTeamDrawPoints : HomeTeamDrawPoints;
+            return atHome
+                ? HomeTeamDrawPoints : AwayTeamDrawPoints;
         }
         
-        public static double GetTeamWinPoints(bool isAway, bool bigDiff)
+        public static double GetTeamWinPoints(bool atHome, bool bigDiff)
         {
-            return isAway
-                ? bigDiff ? AwayTeamBigVictoryPoints : AwayTeamVictoryPoints
-                : bigDiff ? HomeTeamBigVictoryPoints : HomeTeamVictoryPoints;
+            return atHome
+                ? bigDiff ? HomeTeamBigVictoryPoints : HomeTeamVictoryPoints
+                : bigDiff ? AwayTeamBigVictoryPoints : AwayTeamVictoryPoints;
         }
         
         public static double GetTeamLossPoints()

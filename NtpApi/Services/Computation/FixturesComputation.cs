@@ -7,33 +7,35 @@ namespace NtpApi.Services.Computation
     {
      
         public static FixturesPrediction GetPrediction
-            (string firstTeamName, string secondTeamName, List<Fixture> items)
+            (string firstTeamName, string secondTeamName, IEnumerable<Fixture> items)
         {
             double firstTeamPoints = 0;
             double secondTeamPoints = 0;
             
             foreach (var fixtureItem in items)
             {
-                firstTeamPoints += GetRateByGoals(firstTeamName, fixtureItem);
-                secondTeamPoints += GetRateByGoals(secondTeamName, fixtureItem);
+                firstTeamPoints += GetPointsByGoals(firstTeamName, fixtureItem);
+                secondTeamPoints += GetPointsByGoals(secondTeamName, fixtureItem);
             }  
-    
+            
             return new FixturesPrediction(firstTeamPoints / secondTeamPoints);
         }
 
 
-        private static double GetRateByGoals (string teamName, Fixture fixture)
+        private static double GetPointsByGoals (string teamName, Fixture fixture)
         {
-            var firstTeamAtHome = fixture.Team_season_home_name == teamName;
-            var goalsDiff = fixture.Number_goal_team_home - fixture.Number_goal_team_away;
-
+            var teamAtHome = fixture.Team_season_home_name.Contains(teamName);
+            var goalsDiff = teamAtHome
+                ? fixture.Number_goal_team_home - fixture.Number_goal_team_away
+                : fixture.Number_goal_team_away - fixture.Number_goal_team_home; 
+            
             if (goalsDiff > 0)
             {
-                return ComputationConfig.GetTeamWinPoints(firstTeamAtHome, goalsDiff >= 3);
+                return ComputationConfig.GetTeamWinPoints(teamAtHome, goalsDiff >= 3);
             }
             
             return goalsDiff == 0 
-                ? ComputationConfig.GetTeamDrawPoints(firstTeamAtHome)
+                ? ComputationConfig.GetTeamDrawPoints(teamAtHome)
                 : ComputationConfig.GetTeamLossPoints();
         }
     }
