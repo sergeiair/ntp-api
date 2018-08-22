@@ -1,12 +1,14 @@
-﻿namespace NtpApi.Models
+﻿using System.Collections;
+
+namespace NtpApi.Models
 {
     public class FixturesPrediction
     {
-        public FixturesPrediction(double rate)
+        public FixturesPrediction(Hashtable rates)
         {
-            Rate = rate;
+            Rates = rates;
         }
         
-        public double Rate { get; }
+        public Hashtable Rates { get; }
     }
 }

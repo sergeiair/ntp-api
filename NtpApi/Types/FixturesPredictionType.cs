@@ -7,7 +7,7 @@ namespace NtpApi.Types
     {
         public FixturesPredictionType()
         {
-            Field(prediction => prediction.Rate, type: typeof(StringGraphType));
+            Field(prediction => prediction.Rates, type: typeof(StringGraphType));
         }
     }
 }

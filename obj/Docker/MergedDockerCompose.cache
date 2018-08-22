@@ -1,12 +1,12 @@
 services:
   ntpapi:
     build:
-      context: D:\OWN_PROJECTS\NTP_API\NtpApi
+      context: C:\OWN-PROJECTS\NTP-BE
       dockerfile: NtpApi/Dockerfile
     container_name: ntp
     environment:
       ASPNETCORE_ENVIRONMENT: Development
     image: ntpapi
     ports:
-    - 80/tcp
-version: '3.0'
+    - target: 80
+version: '3.4'

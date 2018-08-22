@@ -1,1 +1,2 @@
 D:\OWN_PROJECTS\NTP_API\NtpApi\obj\Release\docker-compose.dcproj.CoreCompileInputs.cache
+C:\OWN-PROJECTS\NTP-BE\obj\Release\docker-compose.dcproj.CoreCompileInputs.cache

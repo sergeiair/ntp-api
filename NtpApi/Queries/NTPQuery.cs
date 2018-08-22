@@ -77,7 +77,7 @@ namespace NtpApi.Queries
                         .Result;        
                     
                     return FixturesComputation.GetPrediction(
-                        firstTeam, secondTeam, fixtures.ToList()
+                        firstTeam, fixtures.ToList()
                     );
                 }
             );

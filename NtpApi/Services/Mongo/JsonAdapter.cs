@@ -19,7 +19,7 @@ namespace NtpApi.Services.Mongo
         }
 
         
-        public string getPreparedForInsert(string fileName)
+        public string GetPreparedForInsert(string fileName)
         {
             using (var file = File.OpenText(_filePath + fileName))
             {

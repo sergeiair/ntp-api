@@ -9,3 +9,14 @@ D:\OWN_PROJECTS\NTP_API\NtpApi\NtpApi\obj\Release\netcoreapp2.0\NtpApi.AssemblyI
 D:\OWN_PROJECTS\NTP_API\NtpApi\NtpApi\obj\Release\netcoreapp2.0\NtpApi.dll
 D:\OWN_PROJECTS\NTP_API\NtpApi\NtpApi\obj\Release\netcoreapp2.0\NtpApi.pdb
 D:\OWN_PROJECTS\NTP_API\NtpApi\NtpApi\obj\Release\netcoreapp2.0\NtpApi.csprojResolveAssemblyReference.cache
+C:\OWN-PROJECTS\NTP-BE\NtpApi\bin\Release\netcoreapp2.0\NtpApi.deps.json
+C:\OWN-PROJECTS\NTP-BE\NtpApi\bin\Release\netcoreapp2.0\NtpApi.runtimeconfig.json
+C:\OWN-PROJECTS\NTP-BE\NtpApi\bin\Release\netcoreapp2.0\NtpApi.runtimeconfig.dev.json
+C:\OWN-PROJECTS\NTP-BE\NtpApi\bin\Release\netcoreapp2.0\NtpApi.dll
+C:\OWN-PROJECTS\NTP-BE\NtpApi\bin\Release\netcoreapp2.0\NtpApi.pdb
+C:\OWN-PROJECTS\NTP-BE\NtpApi\obj\Release\netcoreapp2.0\NtpApi.csproj.CoreCompileInputs.cache
+C:\OWN-PROJECTS\NTP-BE\NtpApi\obj\Release\netcoreapp2.0\NtpApi.AssemblyInfoInputs.cache
+C:\OWN-PROJECTS\NTP-BE\NtpApi\obj\Release\netcoreapp2.0\NtpApi.AssemblyInfo.cs
+C:\OWN-PROJECTS\NTP-BE\NtpApi\obj\Release\netcoreapp2.0\NtpApi.dll
+C:\OWN-PROJECTS\NTP-BE\NtpApi\obj\Release\netcoreapp2.0\NtpApi.pdb
+C:\OWN-PROJECTS\NTP-BE\NtpApi\obj\Release\netcoreapp2.0\NtpApi.csprojAssemblyReference.cache

@@ -1,9 +1,9 @@
-version: '3'
+version: '3.4'
 
 services:
   ntpapi:
     volumes:
-      - C:\Users\Sergei\vsdbg\vs2017u5:/remote_debugger:ro
+      - C:\Users\siarhei.zhardzetski\vsdbg\vs2017u5:/remote_debugger:ro
     entrypoint: tail -f /dev/null
     labels:
       com.microsoft.visualstudio.debuggee.program: "dotnet"

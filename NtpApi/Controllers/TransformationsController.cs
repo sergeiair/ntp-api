@@ -11,7 +11,7 @@ namespace NtpApi.Controllers
         {
             
            
-            return StatusCode(200, new JsonAdapter().getPreparedForInsert("head2head.json"));
+            return StatusCode(200, new JsonAdapter().GetPreparedForInsert("head2head.json"));
         }
     }
 }

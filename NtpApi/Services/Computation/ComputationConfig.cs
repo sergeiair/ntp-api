@@ -16,7 +16,8 @@
         public static double GetTeamDrawPoints(bool atHome)
         {
             return atHome
-                ? HomeTeamDrawPoints : AwayTeamDrawPoints;
+                ? HomeTeamDrawPoints
+                : AwayTeamDrawPoints;
         }
         
         public static double GetTeamWinPoints(bool atHome, bool bigDiff)
@@ -30,5 +31,36 @@
         {
             return TeamLossPoints;
         }
+
+        public static double GetHomeWinChance(double avPoints)
+        {
+            return 100 / (HomeTeamVictoryPoints / avPoints);
+        }
+
+        public static double GetHomeDrawChance(double avPoints)
+        {
+            return ((100 / (100 / (HomeTeamDrawPoints / avPoints))) * 100) * 0.5;
+        }
+
+        public static double GetHomeLossChance(double avPoints)
+        {
+            return 100 - (100 / (HomeTeamVictoryPoints / avPoints));
+        }
+
+        public static double GetAwayWinChance(double avPoints)
+        {
+            return 100 / (AwayTeamVictoryPoints / avPoints);
+        }
+
+        public static double GetAwayDrawChance(double avPoints)
+        {
+            return ((100 / (100 / (AwayTeamDrawPoints / avPoints))) * 100) * 0.5;
+        }
+
+        public static double GetAwayLossChance(double avPoints)
+        {
+            return 100 - (100 / (AwayTeamVictoryPoints / avPoints));
+        }
+
     }
 }

@@ -3,7 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NtpApi", "NtpApi\NtpApi.csproj", "{12236B1D-12E5-483F-A683-2E3BE3CEE596}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NtpApi", "NtpApi\NtpApi.csproj", "{12236B1D-12E5-483F-A683-2E3BE3CEE596}"
+	ProjectSection(ProjectDependencies) = postProject
+		{002901BA-8BCE-46B4-8AE3-F2F9EC98505D} = {002901BA-8BCE-46B4-8AE3-F2F9EC98505D}
+	EndProjectSection
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{002901BA-8BCE-46B4-8AE3-F2F9EC98505D}"
 EndProject
